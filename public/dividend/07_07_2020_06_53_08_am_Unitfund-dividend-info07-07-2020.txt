@@ -1,0 +1,127 @@
+100010000001~NASIR UDDIN AHMED~titonasir2895@yahoo.com~TRUST BANK LIMITED~NASIR UDDIN AHMED~7002-0311041908~240275358~Principal, Dhaka Cantt.~ind~Cash~0~
+100010000002~SM MAHMUD HUSSAIN~ceo@capmbd.com~TRUST BANK LIMITED~SM MAHMUD HUSSAIN~00160316000012~240261812~GULSHAN~ind~CIP~17370~
+100010000003~MD BAZLUR RASHID~bazlur@capmbd.com~SOCIAL ISLAMIC BANK LIMITED~MD BAZLUR RASHID~0271340005093~195260434~BANANI~ind~CIP~0~
+100010000004~SANJAY KUMAR DATTA~skdattabd@yahoo.com~BASIC BANK LTD.~SANJAY KUMAR DATTA~0214-01-0010350~055271789~MAIN~ind~CIP~0~
+100010000005~Md. Shohel Molla~shohel20001@gmail.com~SOCIAL ISLAMIC BANK LIMITED~Md. Shohel Molla~027-1340011922~195260434~Banani~ind~Cash~0~
+100010000006~Lutfunnesa~moutushi007@yahoo.com~The City Bank~Moutushi Afrin~2101569774001~225261729~gulshan~ind~Cash~0~
+100010000007~Md. Nahidul Islam Prodhan~nahid250@gmail.com~Dutch Bangla Bank Limited~Md. Nahidul Islam Prodhan~110.101.58069~090261183~Dhanmondi~ind~CIP~0~
+100010000009~Dr. Sheikh Forhad~drskforhad@gmail.com~Brac Bank Limited~Dr. Sheikh Forhad~4301100493178001~060671187~Narayanganj~ind~CIP~110~
+100010000013~Khalil Bin Wahid~kbwahid@bol-online.com~Trust Bank~Khalil Bin Wahid~7022-0212000029~240262958~Millennium Corporate Branch~ind~CIP~330~
+100010000014~Syed Golam Wadud~sgwadud@gmail.com~Trust Bank Limited~Syed Golam Wadud~0002-0210041755~240275358~Principal Branch~ind~CIP~6700~
+100010000015~A.K.M Yahea Chowdhury~emee_emrana@yahoo.com~AB Bank Limited~A.K.M Yahea Chowdhury~4006-295647-300~020263498~New Elephant Road~ind~Cash~0~
+100010000016~Sufi Md. Zakaria~investor.unitfund@gmail.com~AB Bank Limited~Sufi Md. Zakaria~4010-063066-300~020275110~N.S Road~ind~CIP~1410~
+100010000019~Md. Shahadur Zaman~share.shahed@gmail.com~National Bank Limited~Md. Shahadur Zaman~0058-34034337~150274249~Motijheel Branch~ind~CIP~110~
+100010000020~Gazi Afshana Banu~afshana.yousuf@gmail.com~Bank Asia~Gazi Afshana Banu~00734012261~070276130~Scotia~ind~Cash~70~
+100010000022~Chowdhury Suvasish Paul Bibak~rhcebibak@yahoo.com~Prime Bank~Chowdhury Suvasish Paul Bibak~18821030010691~170264121~Savar branch~ind~Cash~3800~
+100010000023~Sharif Anisur Rahman~sharifrahman2011@gmail.com~Prime Bank Limited~Sharif Anisur Rahman~10477360022935~170274245~Motijheel Branch~ind~Cash~0~
+100010000024~Major Sakir Ahmed (Retd)~sakir2936@yahoo.com~Trust Bank Limited~Major Sakir Ahmed (Retd)~0040-0210001659~240471549~Khulna Branch~ind~CIP~0~
+100010000026~Muraheb Malik Chowdhury~muraheb@gmail.com~The City Bank~Muraheb Malik~2101007149001~225262531~Kawran Bazar~ind~Cash~30~
+100010000027~MD.ABDUL QUDDUS~abdul_quddus606@hotmail.com~DHAKA BANK LTD~MD.ABDUL QUDDUS~153.200.1422~85914032~UPOSHAHAR ,SYLHET~ind~CIP~390~
+100010000028~Muhammad Alamgir~alamgir@bsgroupnet.com~Prime Bank Ltd.~Muhammad Alamgir~13221070003447~170260433~Banani~ind~Cash~5800~
+100010000029~Taslima Ferdous~drtaslima@squarehospital.com~Mutual Trust Bank Ltd.~Taslima Ferdous~160310019399~145260589~Bashundhara City~ind~Cash~5800~
+100010000032~Parvez Hassan~parvez@beximco.net~Trust Bank Limited~Parvez Hassan~0002-0210013562~240275358~Principal Br.~ind~Cash~100~
+100010000033~Md. Sahariar Khan~lincoln9mm@gmail.com~Standard chartered~Mohommed Sahariar Khan~18-2504871-01~215274247~MOTIJHEEL~ind~Cash~0~
+100010000034~Shojib Ahmed~shojib.nag@gmail.com~Trust Bank Limited~Shojib Ahmed~0016-0316001351~240261812~Gulshan~ind~Cash~0~
+100010000038~Md. Nafisur Rahman~nafisur99@yahoo.com~IFIC Bank Limited~Md. Nafisur Rahman~1006453699035~120261187~Dhanmondi~ind~Cash~0~
+100010000039~Mohammed Nasir Uddin Chowdhury~nasir.afra@gmail.com~Standard Chartered~Mohammed Nasir Uddin Chowdhury~01142045301~215274247~MOTIJHEEL~ind~Cash~50~
+100010000040~Anthony D Costa~adcosta82@gmail.com~Trust Bank Limited~Anthony D Costa~0017-0310004359~240271936~Dilkusha Corp. Branch~ind~CIP~200~
+100010000043~Tasnim Binte Aziz~uma_tasnim@yahoo.com~HSBC Bank Limited~Tasnim Binte Aziz~003001526011~115261721~Baridhara~ind~Cash~100~
+100010000044~S M Farhad~farhadsigs@yahoo.com~Trust Bank Ltd~Brig Gen S M Farhad (Retd) & Nurjahan Akther~0002-0210420916~240275358~Principal Br~ind~Cash~33000~
+100010000045~Siraj Uddin Ahmed~ltc_sirajahmed2005@yahoo.com~Trust Bank Ltd.~LT COL SIRAJ UDDDIN AHMED (RETD), PSC, BIR~0002 0318000774~240275358~Dhaka Cantt~ind~Cash~3000~
+100010000046~Lt. Col. Syed Zakir Uddin Ahmed~zakirahmed13@yahoo.com~Trust Bank Limited~Lt. Col. Syed Zakir Uddin Ahmed~00020210002216~240275358~Principal~ind~Cash~0~
+100010000047~Md Shameem Alam Bakhshi~bakhshi757@yahoo.com~Trust Bank Ltd.~Md Shameem Alam Bakhshi~7002-0311040605~240275358~Principal Br~ind~CIP~500~
+100010000049~Chowdhury Sabbir Hasan~sabbir@capmbd.com~UCBL~Chowdhury Sabbir Hasan~007212100030851~245272327~Foreign Exchange Branch~ind~Cash~0~
+100010000051~Arifur Rahman~mrimmoy1@gmail.com~HSBC~Arifur Rahman~001030600001~115261121~DHAKA OFFICE(112)~ind~Cash~10000~
+100010000052~Sumit Paul~sumitpaul131@gmail.com~Midland Bank Ltd~Sumit Paul~0011-1040000897~285261727~Gulshan~ind~Cash~0~
+100010000054~Md. Anisur Rahman~anisrhmn.aurko@gmail.com~Brac Bank~Md. Anisur Rahman~1507202513366001~060260435~Banani~ind~Cash~10~
+100010000055~Md. Maruful Hoque Chowdhury~mhcmaruf@gmail.com~Standard Chartered Bank Limited~Md. Maruful Hoque Chowdhury~181167883-01~215261726~Gulshan~ind~Cash~1000~
+100010000056~Syed Fazlul Karim~fazlul_karim@yahoo.com~Dutch Bangla Bank Ltd.~Syed Fazlul Karim~114.101.474~090263194~Mohakhali~ind~CIP~10~
+100010000057~Sabina Yesmin~shimu.mahmood@yahoo.com~Standard Chartered Bank~Sabina Yesmin~18-1166111-01~215261726~Gulshan~ind~Cash~0~
+100010000058~MD KAHIR MAHMOOD~kahir2010@gmail.com~Standard Chartered Bank~MD KAHIR MAHMOOD~18-1110805-01~215261726~Gulshan~ind~Cash~500~
+100010000060~Md Sayeed-Bin-Islam~sayeedbinislam123@gmail.com~SBAC Bank Limited~MD. SAYEED-BIN-ISLAM~0026121000068~270260438~Banani Branch~ind~Cash~0~
+100010000062~MUSTAFIZUR RAHMAN~mustafiz0062@gmail.com~Jamuna Bank~Mustafizur Rahman~030-0310022323~130260431~Banani Branch~ind~CIP~0~
+100010000063~MOHAMMAD KHALED HOSSAIN CHOUDHURY~khaled@cvcflbd.com~Bank Asia Limited~MOHAMMAD KHALED HOSSAIN CHOUDHURY~00834011308~070262928~Mcb Dilkusha Branch~ind~CIP~0~
+100010000064~YAZDAN YUSUF CHOWDHURY~yazdan.chowdhury@gmail.com~Trust Bank Limited~YAZDAN YUSUF CHOWDHURY~0016-0130000123~240261812~Gulshan Corp.~ind~Cash~0~
+100010000065~Muhammad Faruque Hussain~faruque2345@yahoo.com~Trust Bank Ltd~Muhammad Faruque Hussain~02-0310236801~240275358~Corporate Br, Dhaka Cantt.~ind~Cash~4350~
+100010000066~Md Hakimuzzaman~hzmn1971@gmail.com~Trust Bank Ltd~Md Hakimuzzaman~0002-0210101207~240275358~Principal~ind~Cash~0~
+100010000067~Md. Akram Hossain Jubaraj~ahraj007@yahoo.com~SCB~Md. Akram Hossain Jubaraj~18-1326747-01~215261726~Gulshan~ind~Cash~0~
+100010000069~Khandoker Anisur Rahman~anis4505@yahoo.com~Trust Bank Ltd~Khandoker Anisur Rahman~0002-0210024069~240275358~Principle Branch~ind~Cash~0~
+100010000070~FERDOUS HASAN SALIM~fhs4410@yahoo.com~TRUST BANK~FERDOUS HASAN SALIM~0002-0210018174~240264185~DHAKA CANTT~ind~Cash~0~
+100010000071~Md. Yasin Chowdhury~yasin.chowdhury@berichbd.com~First Securities Islami Bank Limited~Md. Yasin Chowdhury~0012200000064~105153160~Halishahar, chittagong~ind~Cash~0~
+100010000072~Mohammad Habibur Rahman~habibur.rahman@berichbd.com~Eastern Bank Limited~Mohammad Habibur Rahman~201260034590~95154961~Mehedibagh~ind~Cash~0~
+100010000073~Mohammad Shafiul Islam~shafiul.islam@berichbd.com~Eastern Bank Limited~Mohammad Shafiul Islam~0201260034954~95154961~Mehedibagh~ind~Cash~0~
+100010000074~Muhammad Zaberul Islam~zaberul.islam@berichbd.com~Eastern Bank Limited~Muhammad Zaberul Islam~0201260034604~95154961~Mehedibagh~ind~Cash~0~
+100010000075~Abdullah Al Mamun~abdullah.mamun@berichbd.com~Dutch Bangla Bank Ltd.~Abdullah Al Mamun~1291010002250~90151480~CDA Avenue~ind~Cash~0~
+100010000076~Rashed Ahmed~rashedtkz@gmail.com~Midland Bank~Rashed Ahmed~0011-1010002414~285261727~Gulshan~ind~Cash~5200~
+100010000077~ADNAN YUSUF CHOUDHURY~choudhuryadnanchest@gmail.com~Trust Bank~ADNAN YUSUF CHOUDHURY~0016-0310024605~240261812~Gulshan Corporate Branch~ind~Cash~0~
+100010000078~FUAD AHMED KHAN~fuadahmedamc@yahoo.com~TRUST BANK LIMITED~FUAD AHMED KHAN~0074-0130000052~240263199~MOHAKHALI~ind~Cash~10~
+100010000079~AHSAN MAHMOOD~amtrial@gmail.com~TRUST BANK LIMITED~AHSAN MAHMOOD~0003-0310036651~240276199~SKB~ind~Cash~0~
+100010000080~MD. IFTAKHER HOSSAIN~ifti.tbl@gmail.com~TRUST BANK LIMITED~MD. IFTAKHER HOSSAIN~0003-0210010724~240276199~SKB~ind~Cash~50~
+100010000081~FARIDA AKTER~farida.akter.1963@gmail.com~TRUST BANK LIMITED~FARIDA AKTER~0061-0210001837~240261812~GULSHAN CORPORATE~ind~Cash~20~
+100010000082~Istiak Mahmud~istiak.mahmud@gmail.com~Standard Chartered~Istiak Mahmud~18-1217073-01~215261726~Gulshan Branch~ind~Cash~0~
+100010000083~MD.NIZAM UDDIN BHUIYAN~anik_bhuiyan@hotmail.com~Pubali Bnak Limited~MD.NIZAM UDDIN BHUIYAN~3677101043891~175263198~Mohakhali Branch~ind~Cash~0~
+100010000086~Angkan Biswas~angkan.ca@gmail.com~Trust Bank Limited~Angkan Biswas~0016-0316003395~240261812~Gulshan Corporate~ind~Cash~0~
+100010000087~KAYES MAHMUD~kayes058@yahoo.com~UNION BANK LIMITED~KAYES MAHMUD~291130000017~265260430~BANANI~ind~Cash~1500~
+100010000088~MD. MEZBAHUR RAHMAN~masududdin02@gmail.com~STANDARD CHARTERED BANK~MD. MEZBAHUR RAHMAN~18112045401~215262538~KARWAN BAZAR~ind~CIP~0~
+100010000089~FAHMIDA SULTANA SHOVA~fahamshova@gmail.com~TRUST BANK~FAHMIDA SULTANA SHOVA~0056-0316006189~240260439~Banani~ind~Cash~0~
+100010000091~Maria Binte Muzib~maria.muzib@gmail.com~Standard Chartered Bank Limited~Maria Binte Muzib~18122375601~2152612726~Gulshan Branch~ind~Cash~0~
+100010000093~SHEIKH MAHMUDUL HASSAN~hassanhydrographer@yahoo.com~Trust Bank Limited~CDR SHEIKH MAHMUDUL HASSAN~"0018-0210003842"~240263799~Radission Water Garden Hotel~ind~Cash~1700~
+100010000094~TANZINA ZEREN~tanzina.zerin@gmail.com~Trust Bank Limited~TANZINA ZEREN~0056-0310004638~240260439~Banani~ind~CIP~12500~
+100010000095~Mohammad Golam Kibria~gkibria@link3.net~Standard Chartered~Mohammad Golam Kibria~181324081-01~215261726~Gulshan~ind~CIP~60~
+100010000096~Md. Sarwar-E-Rahman~emon.sarwar88@gmail.com~City Bank Limited~Md. Sarwar-E-Rahman~2101092092001~225272321~Foreign Exchange~ind~Cash~0~
+100010000097~Md. Mahbub Alam~mahbub.alam@rocketmail.com~Mutual Trust Bank Ltd.~MD. Mahbub Alam~0020310118199~145275358~Principal Branch~ind~Cash~5440~
+100010000098~Md. Habibur Rahman~sumonhr@gmail.com~SCB~MD Habibur Rahman~18123744201~215261726~Gulshan Avenue, Gulshan 1~ind~Cash~0~
+100010000099~Md. Iftekhar-ul- Islam~iftekhar.ul.islam13@gmail.com~Dhaka Bank Limited~Md.Iftekhar-ul-Islam~2072000045080~085262539~KARWAN BAZAR~ind~CIP~0~
+100010000100~AKM Ziaul Islam~akm.ziaul.islam@gmail.com~Dutch Bangla Bank Ltd.~AKM Ziaul Islam~107-101-65304~090262537~Karwan Bazar~ind~CIP~3500~
+100010000101~MD SHAMSUL HAQUE~shamsbd2001@yahoo.com~TRUST BANK LIMITED~MD SHAMSUL HAQUE~0002-0210016596~240275358~PRINCIPAL BRANCH ~ind~CIP~11250~
+100010000104~MOHAMMAD TAREKUL ISLAM~mtarek77@gmail.com~Standard Chartered Bank Bangladesh~MOHAMMAD TAREKUL ISLAM~18132408001~215261726~Gulshan~ind~Cash~1000~
+100010000105~Syeda Shamim Ara~syeda.shamim@tblbd.com~Trust Bank Ltd~Syeda Shamim Ara~0002-0310077804~240275358~Principal Brunch~ind~Cash~0~
+100010000106~MUHAMMAD SHAIFUL ISLAM~mshaiful.islam1@gmail.com~MUTUAL TRUST BANK LTD.~MUHAMMAD SHAIFUL ISLAM~20310118313~145275358~PRINCIPAL BRANCH~ind~Cash~2000~
+100010000107~Sukshana Sarkar~rhcebibak@yahoo.com~Estern Bank Ltd~SUKSHANA SARKER~1701440184883~95264093~Savar~ind~Cash~0~
+100010000108~MD.MAHMUDUL HAQUE KHAN~mhaqkhan1967@gmail.com~TRUST BANK LIMITED~MAJOR MD MAHMUDUL HAQUE KHAN (RETD)~0018-0318000025~240263799~RWGH~ind~Cash~0~
+100010000109~Fatema Begum~bazlur@capmbd.com~krishi bank~Fatema Begum~1101031019572~035820734~RAJBARI~ind~Cash~0~
+100010000110~Md. Abdul Momin Saffat~saffat@live.com~Mutual Trust Bank Ltd.~Md. Abdul Momin Saffat~00070310055841~145264693~Uttara~ind~Cash~850~
+100010000111~MD. NAZRUL ISLAM~nabilislambd2017@gmail.com~One Bank Ltd~MD. NAZRUL ISLAM~0025095218018~165261726~Gulshan~ind~Cash~0~
+100010000112~MAHFUZA BEGUM~fuzibd@gmail.com~City Bank~Mahfuza Begum~2222586010001~225261174~Gulshan Women Branch~ind~Cash~0~
+100020000012~ASHUTOSH CHOWDHURY~ashu.chy@gmail.com~TRUST BANK LIMITED~ASHUTOSH CHOWDHURY~0016-0316001664~240261812~GULSHAN CORPORATE~ind~Cash~0~
+100020000021~SHAHANARA BEGUM~ahmadsajid1989@yahoo.com~AL-ARAFAH ISLAMI BANK LIMITED~SHAHANARA BEGUM~0151120363464~015271390~MOTIJHEEL CORPORATE~ind~Cash~0~
+100020000031~MOHAMMAD ARIFUL HOQUE MOLLIQ~arifmolliq@gmail.com~TRUST BANK LIMITED~MOHAMMAD ARIFUL HOQUE MOLLIQ~0016-0316001548~240261812~GULSHAN CORPORATE~ind~Cash~0~
+100020000036~ADEL AHMED~adelbd65@yahoo.co.uk ~TRUST BANK LIMITED~ADEL AHMED~0016-0316001315~240261812~GULSHAN CORPORATE~ind~Cash~0~
+100020000068~MUFAKHKHARUL ISLAM~mufakhkharul_islam@yahoo.com~TRUST BANK LTD.~MUFAKHKHARUL ISLAM~0016-0316001735~240261812~GULSHAN CORPORATE~ind~Cash~0~
+100030000008~Debasish Das~ddasrana@gmail.com~Dutch Bangla Bank Limited~Debasish Das~123.101.66091~090330227~Board Bazar, Gazipur~ind~Cash~20~
+100030000011~Reaz Uddin Ahmed~reazuddinahmed41@gmail.com~Bangladesh Development Bank Ltd~REAZ UDDIN AHMED~0650100003934~47271571~Principal~ind~Cash~100~
+100030000035~MD. EHSANUL KABIR~nilakash@gmail.com~TRUST BANK LTD~MD. EHSANUL KABIR~0002-0210000450~240275358~PRINCIPAL BRANCH~ind~Cash~0~
+100030000041~Wasef Nowsher~wasef.nowsher@gmail.com~Trust Bank Limited~Wasef Nowsher~0016-0310011066~240261812~Gulshan Corporate Branch~ind~Cash~0~
+100030000042~Itteba Ahammad Khan~itteba06@gmail.com~Trust Bank Limited~Itteba Ahammad Khan~0016-0210006350~240261812~Gulshan~ind~Cash~0~
+100030000050~MD. SHAHIDUL ISALM~shahid1186@yahoo.com~TRUST BANK LIMITED~MAJOR MD SHAHIDUL ISLAM~0002-0210055508~240275358~PRINCIPAL BRANCH~ind~Cash~0~
+100040000018~BANDHU PADO PAUL CHOWDHURY~bandhuhbj@yahoo.com~DUTCH BANGLA BANK LIMITED~BANDHU PADO PAUL CHOWDHURY~1871010003223~090360613~SYLHET~ind~Cash~20~
+100050000037~RAFIQ AHMED~rafiqmallick@gmail.com~BANK ASIA LIMITED~RAFIQ AHMED~0000534016156~070150135~AGRABAD~ind~Cash~0~
+100070000017~MD ARIFUL ISLAM~ssl.arif.121@gmail.com    ~ONE BANk LIMITED~MD ARIFUL ISLAM~0010024931005~165275354~PRINCIPAL BRANCH~ind~Cash~50~
+100070000048~ABDUL AZIZ~abdulaziz0839@gmail.com~ONE BANK LIMITD~ABDUL AZIZ~0015026641006~165275354~PRINCIPAL BRANCH~ind~Cash~0~
+300010000061~MUKTA RAHMAN~mukta_jasmin@yahoo.com~Standard Chartered Bank Limited~MUKTA RAHMAN~24-125157801~215261726~Gulshan~ind~Cash~1100~
+300030000030~MAJOR TAPAN BIKASH CHAKMA (RETD)~chakma2235@yahoo.com~TRUST BANK LIMITED~MAJOR TAPAN BIKASH CHAKMA (RETD)~0002-0310262425~240275358~PRINCIPAL BRANCH~ind~CIP~50~
+100010000113~TANIPA WADUD~tanipawadud@gmail.com~TRUST BANK~TANIPA WADUD~0002-0310265548~240275358~Principal Brunch~ind~Cash~0~
+100010000114~Nurjahan Akther~anurjahan76@yahoo.com~Trust Bank Ltd~Nurjahan Akther~0041-0310029485~240262387~Kafrul~ind~Cash~1800~
+100010000115~Md. Jahidul Islam~Zahidul561@gmail.com~Trust Bank Limited~MD. JAHIDUL ISLAM~0560316006205~240260439~Banani~ind~CIP~50~
+100010000116~MONJU ARA BEGUM~monjuarabegum001@gmail.com~Trust Bank Limited~MONJU ARA BEGUM~0028-0310042298~240262987~Mirpur-11~ind~Cash~0~
+100010000117~Hassan Asheq Mahmood~hamahmood@outlook.com~Al-Arafah Islami Bank Ltd.~Hassan Asheq Mahmood~741120017329~015263137~Mirpur 10~ind~Cash~10~
+100010000118~S M FAJLUL BARI~smfbari@gmail.com~BANK ASIA LTD~S M FAJLUL BARI~00734022460~070276130~SCOTIA~ind~Cash~500~
+100010000120~MD. Murshed Alam~murshed.alam@team.com.bd~City Bank Ltd.~MD. MURSHED ALAM~2182564284001~225260438~Banani~ind~Cash~1200~
+200010000001~CAPM (Capital  Portfolio Management) Company Limited~ceo@capmbd.com~AB Bank Limited~CAPM (Capital  Portfolio Management) Company limited~4004-774235-000~20274245~Motijheel Corporate~inst~Cash~129500~
+200010000002~Lankabangla Finance Limited~margub.ahmed@lankabangla.com~Dhaka  Bank Limited~Lankabangla Finance Limited~2061500000097~85260436~Banani~inst~Cash~20000~
+200010000003~Trust Bank Limited~adcosta@trustbanklimited.com~Trust Bank Limited~The Trust Bank Ltd. Investment Account~00220210015833~240262958~Millennium Corporate Branch~inst~Cash~100000~
+200010000005~DBH First Mutual Fund~iirony@lrglobalbd.com~Standard Chartered Bank~LR Global AMC A/C DBH First Mutual Fund (Close End)~01-1053487-08~215261726~Gulshan~mf~Cash~78000~
+200010000006~AIBL 1st Islami Mutual Fund~iirony@lrglobalbd.com~Standard Chartered Bank~LR Global AMC A/C AIBL 1st Islami Mutual Fund~01-9778381-01~215261726~Gulshan~mf~Cash~0~
+200010000007~Green Delta Mutual Fund~iirony@lrglobalbd.com~Standard Chartered Bank~LR Global AMC A/C Green Delta Mutual Fund~01-9777962-01~215274247~Motijheel~mf~Cash~97000~
+200010000008~LR Global Bangladesh Mutual Fund One~iirony@lrglobalbd.com~Standard Chartered Bank~LR Global AMC A/C LR Global Bangladesh Mutual Fund One~01-9778527-01~215274247~Motijheel~mf~Cash~213500~
+200010000009~MBL 1st Mutual Fund~iirony@lrglobalbd.com~Standard Chartered Bank~LR Global AMC A/C MBL 1st Mutual Fund~01-9779159-01~215274247~Motijheel~mf~Cash~67000~
+200010000010~NCCBL Mutual Fund-1~iirony@lrglobalbd.com~Standard Chartered Bank~LR Global AMC A/C NCCBL Mutual Fund-1~01-1110537-01~215261726~Gulshan~mf~Cash~72000~
+200010000011~CIPMS-Pool~ipms@capmbd.com~Trust Bank Ltd.~CAPM IPM (Clients)~0016-0320000693~240261812~Gulshan Corporate~inst~CIP~36390~
+200010000012~M.M. Spinning Mills Ltd.~badarspinning@gmail.com~Dhaka Bank Limited~M.M. Spinning Mills Ltd.~0231100000003201~085671188~Narayanganj~inst~Cash~0~
+200010000013~LankaBangla Asset Management Company Limited (Alternative Investment Fund Manager)~faisal@lankabangla.com~One Bank Limited~LankaBangla Asset Management Company Limited (Alternative Investment Fund Manager)~0183000000657~165260435~Banani~inst~Cash~0~
+200010000014~LankaBangla Asset Management Company Limited~faisal@lankabangla.com~Dhaka Bank Limited~LankaBangla Asset Management Company Limited~0206150000001590~085260436~Banani~inst~Cash~0~
+200010000015~M/S Raju Steel Enterprise ~sumitpaul131@gmail.com~Union Bank Ltd. ~M/S Raju Steel Enterprise ~0291010001173~265260430~Banani~inst~CIP~0~
+200010000016~HFAML UNIT FUND~info@hfassetmanagement.com~IFIC BANK LTD~HFAML UNIT FUND~0170145334041~120260559~BASHUNDHARA~mf~Cash~52000~
+200010000017~UCB Capital Management Limted~Sankor.paul@ucb.com.bd~UCB~UCB Capital Management Limted~0011301000001346~245275353~Principal~inst~Cash~43400~
+200010000018~LANKABANGLA 1ST BALANCED UNIT FUND~noor.alam@lankabangla.com~ONE BANK LIMITED~LANKABANGLA 1ST BALANCED UNIT FUND~0183000000464~165260435~BANANI~mf~CIP~56290~
+200020000004~CAPM ADVISORY LIMITED~bashar@capmadvisorybd.com~TRUST BANK LIMITED~CAPM ADVISORY LIMITED (OPERATIONS)~0016-0320000728~240261812~GULSHAN CORPORATE BR.~inst~Cash~172010~

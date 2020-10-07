@@ -1,0 +1,1 @@
+2019-10-02 15:17:41: imagepng(C:\Users\CAPM-Mehedi\Desktop\unit_fund\public\/qr/test.png): failed to open stream: No such file or directory
