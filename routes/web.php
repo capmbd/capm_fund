@@ -25,7 +25,7 @@ Route::get('/employee-setup', 'EmployeeSetupController@emp_add');
 
 Route::post('/user/photo/cng', 'PageController@phcn');
 
-
+/* Parameters Setup */
 Route::Group([
 	'prefix' => '/parameters-setup'
 ],	function(){
