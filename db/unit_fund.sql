@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.9.1
+-- version 4.8.5
 -- https://www.phpmyadmin.net/
 --
--- Host: localhost
--- Generation Time: Oct 07, 2020 at 08:25 AM
--- Server version: 5.6.45
--- PHP Version: 7.3.10
+-- Host: 127.0.0.1
+-- Generation Time: Oct 13, 2020 at 06:17 AM
+-- Server version: 10.1.38-MariaDB
+-- PHP Version: 7.3.2
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -698,7 +698,7 @@ CREATE TABLE `custodian` (
 --
 
 INSERT INTO `custodian` (`CUSTODIAN_ID`, `CUSTODIAN_COMPANY_NAME`, `CUSTODIAN_CONTACT_PERSON`, `CUST_CONTACT_PERSON_MOBILE`, `CUSTODIAN_CONTACT_ADDRESS`, `CUSTODIAN_CONTACT_PHONE`, `CUSTODIAN_CONTACT_MOBILE`, `CUSTODIAN_EMAIL`, `created_at`, `updated_at`) VALUES
-(1, 'BRAC Bank Limited', 'Fahim Ishtiaque Hossain', '01713090190', 'Anik Tower', '9884292', '01713090190', 'digitizedunit.fund@bracbank.com', '2019-04-10 10:32:55', '2020-01-26 12:51:51');
+(1, 'BRAC Bank Limited', 'Fahim Ishtiaque Hossain', '01713090190', 'Anik Tower', '9884292', '01713090190', 'mehedi@capmadvisorybd.com', '2019-04-10 10:32:55', '2020-01-26 12:51:51');
 
 -- --------------------------------------------------------
 
@@ -1564,19 +1564,19 @@ CREATE TABLE `model_has_roles` (
 
 INSERT INTO `model_has_roles` (`role_id`, `model_type`, `model_id`) VALUES
 (1, 'App\\User', 1),
+(1, 'App\\User', 5),
 (2, 'App\\User', 1),
-(4, 'App\\User', 1),
 (2, 'App\\User', 2),
 (2, 'App\\User', 3),
-(3, 'App\\User', 3),
-(4, 'App\\User', 4),
-(1, 'App\\User', 5),
 (2, 'App\\User', 5),
-(4, 'App\\User', 5),
-(4, 'App\\User', 6),
 (2, 'App\\User', 7),
 (2, 'App\\User', 8),
-(3, 'App\\User', 8);
+(3, 'App\\User', 3),
+(3, 'App\\User', 8),
+(4, 'App\\User', 1),
+(4, 'App\\User', 4),
+(4, 'App\\User', 5),
+(4, 'App\\User', 6);
 
 -- --------------------------------------------------------
 

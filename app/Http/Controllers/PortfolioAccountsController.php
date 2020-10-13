@@ -235,8 +235,8 @@ class PortfolioAccountsController extends Controller
         );
 
 
-        $emails = [$apl_email, 'amcuf@capmbd.com'];
-        $cemails = [$custmail, 'amcuf@capmbd.com', 'amc_custodian@capmbd.com'];
+        $emails = [$apl_email];
+        $cemails = [$custmail];
 
         try{
         	Mail::send([], [], function($message) use ($emails, $uploadPath, $dsignfile, $apl_name, $REGISTRATION_NO){
@@ -498,8 +498,8 @@ class PortfolioAccountsController extends Controller
             'type'=>'Surrender'
         );
 
-        $emails = [$apl_email, 'amcuf@capmbd.com'];
-        $cemails = [$custmail, 'amcuf@capmbd.com', 'amc_custodian@capmbd.com'];
+        $emails = [$apl_email];
+        $cemails = [$custmail];
 
         try{
         	Mail::send([], [], function($message) use ($emails, $uploadPath, $dsignfile, $apl_name, $REGISTRATION_NO, $fundname, $qr_code_name){

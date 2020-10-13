@@ -417,7 +417,7 @@ class InvestorLoginController extends Controller
             'fund'=>$fund_name->PORTFOLIO_NAME
         );
 
-        $emails = [$appl_mail,'amcuf@capmbd.com'];
+        $emails = [$appl_mail];
         $custmail = [$cust_mail,'amc_custodian@capmbd.com'];
 
         try{
@@ -588,7 +588,7 @@ class InvestorLoginController extends Controller
             'fund'=>$fund_name->PORTFOLIO_NAME
         );
 
-        $emails = [$appl_mail,'amcuf@capmbd.com'];
+        $emails = [$appl_mail];
         $custmail = [$cust_mail,'amc_custodian@capmbd.com'];
 
         try{
