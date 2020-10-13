@@ -798,7 +798,7 @@ class SubscriptionRedumptionController extends Controller
             'type'=>'subscription'
         );
 
-        $emails = [$appl_mail,$custmail,'amcuf@capmbd.com','amc_custodian@capmbd.com'];
+        $emails = [$appl_mail,$custmail];
 
         try{
             Mail::send('mail.dis_app', $mail_data, function($message) use ($emails, $reg_no, $appl_name){
@@ -1036,7 +1036,7 @@ class SubscriptionRedumptionController extends Controller
             'type'=>'surrender'
         );
 
-        $emails = [$appl_mail,$custmail,'amcuf@capmbd.com','amc_custodian@capmbd.com'];
+        $emails = [$appl_mail,$custmail];
 
         try{
             Mail::send('mail.dis_app', $mail_data, function($message) use ($emails, $reg_no, $appl_name){

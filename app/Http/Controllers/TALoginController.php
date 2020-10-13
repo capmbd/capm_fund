@@ -405,7 +405,7 @@ class TALoginController extends Controller
             'phn'=>$Appl_Contract,
             'pass'=>$pwd
         );
-        $emails = [$Appl_Email,'amcuf@capmbd.com'];
+        $emails = [$Appl_Email];
 
         try{
             Mail::send('mail.inv_reg', $mail_data, function($message) use ($emails, $reg_no){
@@ -572,7 +572,7 @@ class TALoginController extends Controller
             'phn'=>$Inst_Telephone,
             'pass'=>$pwd
         );
-        $emails = [$Inst_Email,'amcuf@capmbd.com'];
+        $emails = [$Inst_Email];
 
         try{
             Mail::send('mail.inv_reg_ins', $mail_data, function($message) use ($emails, $inst_reg_no){
@@ -901,7 +901,7 @@ class TALoginController extends Controller
             'fund'=>$fund_name->PORTFOLIO_NAME
         );
 
-        $emails = [$appl_mail,'amcuf@capmbd.com'];
+        $emails = [$appl_mail];
         $custmail = [$cust_mail,'amc_custodian@capmbd.com'];
 
         try{
@@ -1074,8 +1074,8 @@ public function ta_sell_store(Request $request){
             'fund'=>$fund_name->PORTFOLIO_NAME
         );
 
-        $emails = [$appl_mail,'amcuf@capmbd.com'];
-        $custmail = [$cust_mail,'amc_custodian@capmbd.com'];
+        $emails = [$appl_mail];
+        $custmail = [$cust_mail];
 
         try{
             Mail::send('mail.sell_email_inv', $mail_data, function($message) use ($emails, $uploadPath, $dsignfile, $apl_name, $REGISTRATION_NO){
