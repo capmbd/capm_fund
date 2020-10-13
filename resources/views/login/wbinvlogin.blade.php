@@ -93,6 +93,16 @@
                     </div>
                 </div>
             </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                        <div class="text-center">
+                            <p id="pmsg" style="color: red; margin-top: 20px; font-size: 14px;"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
         <script type="text/javascript" src=" {{ asset('BackEnd/files/bower_components/jquery-ui/js/jquery-ui.min.js') }} "></script>
         <script type="text/javascript" src=" {{ asset('BackEnd/files/bower_components/popper.js/js/popper.min.js') }} "></script>
@@ -135,6 +145,7 @@
                                     document.getElementById("msg").innerHTML=data;
                                     document.getElementById("inv_id_input").style.display = "none";
                                     document.getElementById("inv_code_input").style.display = "block";
+                                    document.getElementById("pmsg").innerHTML = "*** Please Check Your Registered Email For 7 Digit Code";
                                 }
                             }
                         });
@@ -165,6 +176,7 @@
                                     document.getElementById("msg").innerHTML=data;
                                     document.getElementById("inv_code_input").style.display = "none";
                                     document.getElementById("inv_login_form").style.display = "block";
+                                    document.getElementById("pmsg").innerHTML = "";
                                 }else{
                                     document.getElementById("msg").innerHTML='Error';
                                 }
