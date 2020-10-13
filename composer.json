@@ -15,7 +15,7 @@
         "laravel/tinker": "^1.0",
         "laravelcollective/html": "^5.8",
         "spatie/laravel-permission": "^2.37",
-        "werneckbh/laravel-qr-code": "^0.1.3"
+        "werneckbh/laravel-qr-code": "^0.1.3",
 		"phpoffice/phpexcel": "dev-master"
     },
     "require-dev": {
