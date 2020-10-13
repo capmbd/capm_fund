@@ -14,8 +14,8 @@ class FrontEndController extends Controller
     }
 
     public function client_home(){
-        return redirect('http://capmbd.com');
-        //return view('BackEnd.pages.clienthome');
+        //return redirect('http://capmbd.com');
+        return view('BackEnd.pages.clienthome');
     }
 
     public function get_apps_login(){
