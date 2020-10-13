@@ -17,7 +17,7 @@ trait RegistersUsers
      */
     public function showRegistrationForm()
     {
-        return view('BackEnd.pages.emp_setup');
+        return view('auth.register');
     }
 
     /**
