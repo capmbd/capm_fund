@@ -202,7 +202,7 @@ class PortfolioAccountsController extends Controller
 
         $pdf = PDF::loadView('BackEnd.pages.reports.holding_pdf', compact('fund_name','REGISTRATION_NO', 'inv_info', 'REQ_DATE','existing', 'REMAINING_UNITS', 'qr_code_name'))->save($uploadPath.$file_name.'.pdf');
 
-    $jarFileLocation = './pdfSigner/SignPDFJar.jar';
+    /*$jarFileLocation = './pdfSigner/SignPDFJar.jar';
     $apiKey = "fecd45deae5fd23c430ae493efc2cfcf8b978b8d";
     $pdfFileName =$file_name.'.pdf';
     $pdfFileDirectory ='./investor/'.$REGISTRATION_NO.'/';
@@ -225,7 +225,7 @@ class PortfolioAccountsController extends Controller
 
     exec($executableCOde, $output);
     
-    $dsignfile = "DigitallySigned_".$file_name;
+    $dsignfile = "DigitallySigned_".$file_name;*/
 
     	$mail_data = array(
     		
@@ -239,12 +239,12 @@ class PortfolioAccountsController extends Controller
         $cemails = [$custmail];
 
         try{
-        	Mail::send([], [], function($message) use ($emails, $uploadPath, $dsignfile, $apl_name, $REGISTRATION_NO){
+        	Mail::send([], [], function($message) use ($emails, $uploadPath, $file_name, $apl_name, $REGISTRATION_NO){
 	            $message->from('amcuf@capmbd.com', 'CAPM Fund Management');
 	            $message->to($emails);
 	            $message->subject('Report of Total Unit Holdings for '.$REGISTRATION_NO.' ,Applicant name-'.$apl_name);
 	            $message->setBody('Please find Registration No: '.$REGISTRATION_NO.' and Applicant name: '.$apl_name.' information attached.');
-	            $message->attach($uploadPath.$dsignfile.'.pdf');
+	            $message->attach($uploadPath.$file_name.'.pdf');
 	        });
 
 	        Mail::send('mail.tr_app', $mail_data, function($message) use ($cemails, $REGISTRATION_NO, $apl_name){
@@ -466,7 +466,7 @@ class PortfolioAccountsController extends Controller
 
         $pdf = PDF::loadView('BackEnd.pages.reports.sellholding_pdf', compact('fund_name','REGISTRATION_NO', 'inv_info', 'REQ_DATE','existing', 'SELL_PAD_UNIT', 'qr_code_name'))->save($uploadPath.$file_name.'.pdf');
 
-    $jarFileLocation = './pdfSigner/SignPDFJar.jar';
+    /*$jarFileLocation = './pdfSigner/SignPDFJar.jar';
     $apiKey = "fecd45deae5fd23c430ae493efc2cfcf8b978b8d";
     $pdfFileName =$file_name.'.pdf';
     $pdfFileDirectory ='./investor/'.$REGISTRATION_NO.'/';
@@ -489,7 +489,7 @@ class PortfolioAccountsController extends Controller
 
     exec($executableCOde, $output);
     
-    $dsignfile = "DigitallySigned_".$file_name;
+    $dsignfile = "DigitallySigned_".$file_name;*/
 
     	$mail_data = array(
             
@@ -502,12 +502,12 @@ class PortfolioAccountsController extends Controller
         $cemails = [$custmail];
 
         try{
-        	Mail::send([], [], function($message) use ($emails, $uploadPath, $dsignfile, $apl_name, $REGISTRATION_NO, $fundname, $qr_code_name){
+        	Mail::send([], [], function($message) use ($emails, $uploadPath, $file_name, $apl_name, $REGISTRATION_NO, $fundname, $qr_code_name){
 	            $message->from('amcuf@capmbd.com', 'CAPM Fund Management');
 	            $message->to($emails);
 	            $message->subject('Holding Certificate of '.$fundname.' And Payment Clear No '.$qr_code_name.', Applicant name-'.$apl_name);
 	            $message->setBody('Please find Registration No: '.$REGISTRATION_NO.' and Applicant name: '.$apl_name.' information attached.');
-	            $message->attach($uploadPath.$dsignfile.'.pdf');
+	            $message->attach($uploadPath.$file_name.'.pdf');
 	        });
 
 	        Mail::send('mail.tr_app', $mail_data, function($message) use ($cemails, $REGISTRATION_NO, $apl_name){

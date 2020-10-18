@@ -856,7 +856,7 @@ class TALoginController extends Controller
 
         $pdf = PDF::loadView('BackEnd.pages.reports.buy_pdf', compact('fund_name', 'inv_info', 'data','existing', 'total_ex', 'fund_bank_info', 'qr_code_name'))->save($uploadPath.$file_name.'.pdf' );
 
-    $jarFileLocation = './pdfSigner/SignPDFJar.jar';
+    /*$jarFileLocation = './pdfSigner/SignPDFJar.jar';
     $apiKey = "fecd45deae5fd23c430ae493efc2cfcf8b978b8d";
     $pdfFileName =$file_name.'.pdf';
     $pdfFileDirectory ='./investor/'.$REGISTRATION_NO.'/';
@@ -879,7 +879,7 @@ class TALoginController extends Controller
 
     exec($executableCOde, $output);
     
-    $dsignfile = "DigitallySigned_".$file_name;
+    $dsignfile = "DigitallySigned_".$file_name;*/
 
         
         $my_file = $file_name.".csv";
@@ -902,14 +902,14 @@ class TALoginController extends Controller
         );
 
         $emails = [$appl_mail];
-        $custmail = [$cust_mail,'amc_custodian@capmbd.com'];
+        $custmail = [$cust_mail];
 
         try{
-            Mail::send('mail.buy_email_inv', $mail_data, function($message) use ($emails, $uploadPath, $dsignfile, $apl_name, $REGISTRATION_NO){
+            Mail::send('mail.buy_email_inv', $mail_data, function($message) use ($emails, $uploadPath, $file_name, $apl_name, $REGISTRATION_NO){
                 $message->from('amcuf@capmbd.com', 'CAPM Fund Management');
                 $message->to($emails);
                 $message->subject('Payment Advice on Unit Subscription Request '.$REGISTRATION_NO.' ,Applicant name-'.$apl_name);
-                $message->attach($uploadPath.$dsignfile.'.pdf');
+                $message->attach($uploadPath.$file_name.'.pdf');
             });
 
             Mail::send([], [], function($message) use ($uploadPath, $file_name, $custmail, $apl_name, $REGISTRATION_NO)
@@ -1011,7 +1011,7 @@ public function ta_sell_store(Request $request){
 
         $cust_mail = $cust->CUSTODIAN_EMAIL;
 
-        $existing_unit = $existing->TOTAL_UNITS - $UNIT;
+        $existing_unit = $existing->TOTAL_UNITS - $existing->SELL_PADDING_UNIT;
 
         $totalunit = $existing_unit + $existing->SELL_PADDING_UNIT;
 
@@ -1029,7 +1029,7 @@ public function ta_sell_store(Request $request){
 
         $pdf = PDF::loadView('BackEnd.pages.reports.sell_pdf', compact('fund_name', 'inv_info', 'data','existing','existing_unit', 'totalunit', 'qr_code_name'))->save($uploadPath.$file_name.'.pdf' );
 
-    $jarFileLocation = './pdfSigner/SignPDFJar.jar';
+    /*$jarFileLocation = './pdfSigner/SignPDFJar.jar';
     $apiKey = "fecd45deae5fd23c430ae493efc2cfcf8b978b8d";
     $pdfFileName =$file_name.'.pdf';
     $pdfFileDirectory ='./investor/'.$REGISTRATION_NO.'/';
@@ -1052,7 +1052,7 @@ public function ta_sell_store(Request $request){
 
     exec($executableCOde, $output);
     
-    $dsignfile = "DigitallySigned_".$file_name;
+    $dsignfile = "DigitallySigned_".$file_name;*/
 
         
         $my_file = $file_name.".csv";
@@ -1078,11 +1078,11 @@ public function ta_sell_store(Request $request){
         $custmail = [$cust_mail];
 
         try{
-            Mail::send('mail.sell_email_inv', $mail_data, function($message) use ($emails, $uploadPath, $dsignfile, $apl_name, $REGISTRATION_NO){
+            Mail::send('mail.sell_email_inv', $mail_data, function($message) use ($emails, $uploadPath, $file_name, $apl_name, $REGISTRATION_NO){
                 $message->from('amcuf@capmbd.com', 'CAPM Fund Management');
                 $message->to($emails);
                 $message->subject('Surrender Acknowledgement '.$REGISTRATION_NO.' ,Applicant name-'.$apl_name);
-                $message->attach($uploadPath.$dsignfile.'.pdf');
+                $message->attach($uploadPath.$file_name.'.pdf');
             });
 
             Mail::send([], [], function($message) use ($uploadPath, $file_name, $custmail, $apl_name, $REGISTRATION_NO)

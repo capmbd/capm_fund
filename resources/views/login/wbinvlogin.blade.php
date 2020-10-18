@@ -145,7 +145,7 @@
                                     document.getElementById("msg").innerHTML=data;
                                     document.getElementById("inv_id_input").style.display = "none";
                                     document.getElementById("inv_code_input").style.display = "block";
-                                    document.getElementById("pmsg").innerHTML = "*** Please Check Your Registered Email For 7 Digit Code";
+                                    document.getElementById("pmsg").innerHTML = "*** Please Check Your Registered Email For 7 Digit Code </br>*** Password must contain at least 6 characters, one digit, one lowercase and one uppercase";
                                 }
                             }
                         });
@@ -160,9 +160,12 @@
                         var code = $('#code').val();
                         var id = $('#user_id').val();
                         var pass = $('#repass').val();
+                        var regex = /^(?=.*\d)(?=.*[a-zA-Z])[a-zA-Z0-9]{7,}$/;
+
                         if(code == '' || id == '' || pass == ''){
                             document.getElementById("msg").innerHTML = "Please Enter Your Security Code, User Id & New Password";
-                        }else{
+                        }
+                        else{
                             $.ajax({
                             url: '/inv/pass-code/'+code+'/'+id+'/'+pass,
                             type: "GET",
@@ -178,7 +181,7 @@
                                     document.getElementById("inv_login_form").style.display = "block";
                                     document.getElementById("pmsg").innerHTML = "";
                                 }else{
-                                    document.getElementById("msg").innerHTML='Error';
+                                    document.getElementById("msg").innerHTML= data;
                                 }
                             }
                         });
