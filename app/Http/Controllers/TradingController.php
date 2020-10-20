@@ -418,4 +418,57 @@ class TradingController extends Controller
 
         return redirect('/trading/persetup')->with('message','Percentage update successfully done');
     }
+
+    public function sell_order(){
+
+        $funds = DB::table('portfolio_registration')->get();
+        $brokers = DB::table('broker')->get();
+        $sectors = DB::table('sector')->get();
+        $stocks = DB::table('stock')->get();
+
+        $pend_order = DB::table('sell_order')
+                      ->join('portfolio_registration', 'sell_order.PRO_REG_ID', '=', 'portfolio_registration.PRO_REG_ID')
+                      ->join('broker', 'sell_order.BROKER_ID', '=', 'broker.BROKER_ID')
+                      ->join('stock', 'sell_order.STOCK_ID', '=', 'stock.STOCK_ID')
+                      ->join('sector', 'stock.SECTOR_ID', '=', 'sector.SECTOR_ID')
+                      ->select('sell_order.*', 'portfolio_registration.PORTFOLIO_NAME', 'broker.BROKER_NAME', 'stock.STOCK_NAME', 'sector.SECTOR_NAME')
+                      ->where('sell_order.STATUS', 'N')
+                      ->paginate(5);
+        return view('BackEnd.pages.trading.sorderSetup', ['funds' => $funds, 'brokers' => $brokers, 'sectors' => $sectors, 'stocks' => $stocks, 'pend_order' => $pend_order]);
+    }
+
+    public function soder_add(Request $request){
+
+        $PRO_REG_ID = $request->PRO_REG_ID;
+        $TRADE_DATE = $request->TRADE_DATE;
+        $BROKER_ID = $request->BROKER_ID;
+        $STOCK_ID = $request->STOCK_ID;
+        $QUANTITY = $request->QUANTITY;
+        $PRICE = $request->PRICE;
+
+        $data=array(
+            'PRO_REG_ID'=>$PRO_REG_ID,
+            'TRADE_DATE'=>$TRADE_DATE,
+            'BROKER_ID'=>$BROKER_ID,
+            'STOCK_ID'=>$STOCK_ID,
+            'QUANTITY'=>$QUANTITY,
+            'PRICE'=>$PRICE,
+            'created_at'=>Carbon::now(),
+            'updated_at'=>Carbon::now()
+        );
+
+        DB::table('sell_order')->insert($data);
+
+        return redirect('/trading/sellorder')->with('message','Sell order successfully done');
+    }
+
+    public function sorder_conf($id){
+
+        $STATUS = 'C';
+        $updated_at = Carbon::now();
+
+        DB::update('update sell_order set STATUS = ?, updated_at = ? where SELLORDER_ID = ?',[$STATUS, $updated_at, $id]);
+
+        return redirect('/trading/sellorder')->with('message','Sell Order Confirmation Successfully Done');
+    }
 }

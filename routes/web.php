@@ -288,6 +288,9 @@ Route::Group([
 	Route::get('/torder/conf/report', 'TradingController@getTOConfRpt');
 	Route::get('/persetup', 'TradingController@perSetup');
 	Route::post('/percent/update', 'TradingController@perUpdate');
+	Route::get('/sellorder', 'TradingController@sell_order');
+	Route::post('/soder/save', 'TradingController@soder_add');
+	Route::get('/pending/sell/{id}', 'TradingController@sorder_conf');
 });
 
 Route::Group([

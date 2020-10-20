@@ -161,7 +161,7 @@
 																	<tbody>
 																		<tr>
 																			<td class="panel-menu-card">
-																				<i class="fas fa-hand-point-right"></i><a href="#">Make Sell Plan</a>
+																				<i class="fas fa-hand-point-right"></i><a href="{{url('trading/sellorder')}}">Sell Order</a>
 																			</td>
 																		</tr>
 																		<tr>
