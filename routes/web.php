@@ -232,7 +232,6 @@ Route::Group([
 	Route::get('/sell/{id}/{proid}', 'InvestorLoginController@inv_sell');
 	Route::post('/sell/save', 'InvestorLoginController@inv_sell_store');
 	Route::post('/inv-reset','InvestorLoginController@pass_reset');
-
 	Route::get('/buy_rate/{f_id}', 'InvestorLoginController@getBuyRate');
 	Route::get('/sell_rate/{f_id}', 'InvestorLoginController@getSellRate');
 	Route::get('/buy_sell_rate/{f_id}/{r_id}', 'InvestorLoginController@getBuySellRate');
@@ -291,6 +290,10 @@ Route::Group([
 	Route::get('/sellorder', 'TradingController@sell_order');
 	Route::post('/soder/save', 'TradingController@soder_add');
 	Route::get('/pending/sell/{id}', 'TradingController@sorder_conf');
+	Route::get('/instrument_cate', 'TradingController@instrument_cate_setup');
+	Route::post('/InstrumentCat/save', 'TradingController@instrument_cate_add');
+	Route::get('/instrumentCate/edit/{id}', 'TradingController@inst_cat_edit');
+	Route::post('/inst_cat/update', 'TradingController@inst_update');
 });
 
 Route::Group([

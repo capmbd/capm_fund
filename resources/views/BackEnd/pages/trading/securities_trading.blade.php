@@ -40,6 +40,16 @@
 															<div>
 																<table class="table table-hover m-b-0 without-header">
 																	<tbody>
+																	<tr>
+																			<td class="panel-menu-card">
+																				<i class="fas fa-hand-point-right"></i><a href="{{url('/trading/instrument_cate')}}">Instrument Category</a>
+																			</td>
+																		</tr>
+																		<tr>
+																			<td class="panel-menu-card">
+																				<i class="fas fa-hand-point-right"></i><a href="{{url('/trading/instrument')}}">Instrument</a>
+																			</td>
+																		</tr>
 																		<tr>
 																			<td class="panel-menu-card">
 																				<i class="fas fa-hand-point-right"></i><a href="{{url('/trading/broker')}}">Broker Setup</a>
