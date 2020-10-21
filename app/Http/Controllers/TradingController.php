@@ -418,4 +418,43 @@ class TradingController extends Controller
 
         return redirect('/trading/persetup')->with('message','Percentage update successfully done');
     }
+	
+	 public function instrument_cate_setup(){
+
+        $instrumentCate = DB::table('instrument_cate')->paginate(5);
+        return view('BackEnd.pages.trading.InstrumentCatSetup', ['instrumentCate' => $instrumentCate]);
+    }
+	public function instrument_cate_add(Request $request){
+        $insert_employee_id =Auth::user()->id;
+        $code = $request->code;
+        $description = $request->description;
+        $sttelment_day_dse = $request->sttelment_day_dse;
+		$sttelment_day_cse = $request->sttelment_day_cse;
+		$status = $request->status;
+
+        $data=array(
+            'code'=>$code,
+            'description'=>$description,
+            'sttelment_day_dse'=>$sttelment_day_dse,
+			'sttelment_day_cse'=>$sttelment_day_cse,
+			'status'=>$status,
+			'insert_employee_id'=>$insert_employee_id,
+            'created_at'=>Carbon::now(),
+            'updated_at'=>Carbon::now()
+        );
+
+        DB::table('instrument_cate')->insert($data);
+
+        return redirect('/trading/instrument_cate')->with('message','Instrument category save successfully done');
+    }
+	
+	public function inst_cat_edit($id){
+
+        $id = decrypt($id);
+
+        $inst_cat = DB::table('instrument_cate')
+                ->where('id', '=', $id)
+                ->first();
+		 return view('BackEnd.pages.trading.instrumentCate_update', ['inst_cat' => $inst_cat]);
+    }
 }

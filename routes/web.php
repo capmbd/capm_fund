@@ -288,6 +288,10 @@ Route::Group([
 	Route::get('/torder/conf/report', 'TradingController@getTOConfRpt');
 	Route::get('/persetup', 'TradingController@perSetup');
 	Route::post('/percent/update', 'TradingController@perUpdate');
+	Route::get('/instrument_cate', 'TradingController@instrument_cate_setup');
+	Route::post('/InstrumentCat/save', 'TradingController@instrument_cate_add');
+	Route::get('/instrumentCate/edit/{id}', 'TradingController@inst_cat_edit');
+	Route::post('/inst_cat/update', 'TradingController@inst_update');
 });
 
 Route::Group([
