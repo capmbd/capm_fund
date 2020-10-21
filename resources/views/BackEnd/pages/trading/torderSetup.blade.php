@@ -166,7 +166,7 @@
         											<th>Stock Name</th>
         											<th>Quantity</th>
         											<th>Price</th>
-        											<th>Confirm</th>
+        											<th>Action</th>
       											</tr>
     										</thead>
     										<tbody>
@@ -186,7 +186,8 @@
         											<td> {{$pending->QUANTITY}} </td>
         											<td> {{$pending->PRICE}} </td>
         											<td class="text-center">
-														<a class="text-success" id="conf" href="{{ url('/trading/pending/buy/'.$pending->TO_ID) }}" title="Confirm" data-toggle="tooltip"><i class="fas fa-check-square btn btn-xs"></i></a>
+														<a id="conf" href="{{ url('/trading/pending/buy/'.$pending->TO_ID) }}"  title="Confirm"><i class="fas fa-check-square text-success"></i></a> 
+                                                        <a id="del" href="{{ url('/trading/delete/buy/'.$pending->TO_ID) }}"  title="Delete"><i class="fas fa-window-close text-danger"></i></a>
         											</td>
       											</tr>
       										@endforeach
@@ -334,6 +335,33 @@
                 }
             });
         });
+
+	$(document).on('click', '#del', function(e){
+            e.preventDefault();
+            var link = $(this).attr('href');
+
+            bootbox.confirm({
+                message: "<span style='color: #2b8a78;'>Are You Sure to Delete?</span>",
+                size: 'small',
+                backdrop: true,
+                buttons: {
+                    cancel: {
+                        label: '<i class="fa fa-times"></i> Cancel',
+                        className: 'btn-success'
+                    },
+                    confirm: {
+                        label: '<i class="fa fa-check"></i> Delete',
+                        className: 'btn-danger'
+                    }
+                },
+                callback: function (result) {
+                    if(result){
+                        window.location.href = link;
+                    }
+                }
+            });
+        });
+
 </script>
 
 @endpush

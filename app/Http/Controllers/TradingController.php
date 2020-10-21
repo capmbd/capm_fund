@@ -515,4 +515,18 @@ class TradingController extends Controller
         return redirect('/trading/sellorder')->with('message','Sell Order Confirmation Successfully Done');
 
     }
+
+    public function sorder_del($id){
+
+        DB::delete('delete from sell_order where SELLORDER_ID = ?',[$id]);
+        return redirect('/trading/sellorder')->with('message','Sell Order Delete Successfully Done');
+
+    }
+
+    public function torder_del($id){
+
+        DB::delete('delete from trade_order where TO_ID = ?',[$id]);
+        return redirect('/trading/torder')->with('message','Trade Order Delete Successfully Done');
+
+    }
 }

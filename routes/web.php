@@ -281,6 +281,7 @@ Route::Group([
 	Route::get('/findWithsecId/{id}', 'TradingController@get_stock');
 	Route::post('/torder/save', 'TradingController@torder_add');
 	Route::get('/pending/buy/{id}', 'TradingController@torder_conf');
+	Route::get('/delete/buy/{id}', 'TradingController@torder_del');
 	Route::get('/torder/conf', 'TradingController@torder_conf_rpt');
 	Route::get('/torderconfbybrokId/{brk}/{trd}', 'TradingController@get_torder_rpt');
 	Route::get('/torder_mail/{brk}/{trd}', 'TradingController@send_torder_mail');
@@ -299,6 +300,7 @@ Route::Group([
 	Route::get('/sellorder', 'TradingController@sell_order');
 	Route::post('/soder/save', 'TradingController@soder_add');
 	Route::get('/pending/sell/{id}', 'TradingController@sorder_conf');
+	Route::get('/delete/sell/{id}', 'TradingController@sorder_del');
 });
 
 Route::Group([
