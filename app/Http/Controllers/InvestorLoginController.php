@@ -525,7 +525,7 @@ class InvestorLoginController extends Controller
 
         $cust_mail = $cust->CUSTODIAN_EMAIL;
 
-        $existing_unit = $existing->TOTAL_UNITS - $UNIT;
+        $existing_unit = $existing->TOTAL_UNITS - $existing->SELL_PADDING_UNIT;
 
         $totalunit = $existing_unit + $existing->SELL_PADDING_UNIT;
 
@@ -543,7 +543,7 @@ class InvestorLoginController extends Controller
 
         $pdf = PDF::loadView('BackEnd.pages.reports.sell_pdf', compact('fund_name', 'inv_info', 'data','existing','existing_unit', 'totalunit', 'qr_code_name'))->save($uploadPath.$file_name.'.pdf' );
 
-    $jarFileLocation = './pdfSigner/SignPDFJar.jar';
+    /*$jarFileLocation = './pdfSigner/SignPDFJar.jar';
     $apiKey = "fecd45deae5fd23c430ae493efc2cfcf8b978b8d";
     $pdfFileName =$file_name.'.pdf';
     $pdfFileDirectory ='./investor/'.$REGISTRATION_NO.'/';
@@ -566,7 +566,7 @@ class InvestorLoginController extends Controller
 
     exec($executableCOde, $output);
     
-    $dsignfile = "DigitallySigned_".$file_name;
+    $dsignfile = "DigitallySigned_".$file_name;*/
 
         
         $my_file = $file_name.".csv";
@@ -589,14 +589,14 @@ class InvestorLoginController extends Controller
         );
 
         $emails = [$appl_mail];
-        $custmail = [$cust_mail,'amc_custodian@capmbd.com'];
+        $custmail = [$cust_mail];
 
         try{
-            Mail::send('mail.sell_email_inv', $mail_data, function($message) use ($emails, $uploadPath, $dsignfile, $apl_name, $REGISTRATION_NO){
+            Mail::send('mail.sell_email_inv', $mail_data, function($message) use ($emails, $uploadPath, $file_name, $apl_name, $REGISTRATION_NO){
                 $message->from('amcuf@capmbd.com', 'CAPM Fund Management');
                 $message->to($emails);
                 $message->subject('Surrender Acknowledgement '.$REGISTRATION_NO.' ,Applicant name-'.$apl_name);
-                $message->attach($uploadPath.$dsignfile.'.pdf');
+                $message->attach($uploadPath.$file_name.'.pdf');
             });
 
             Mail::send([], [], function($message) use ($uploadPath, $file_name, $custmail, $apl_name, $REGISTRATION_NO)
@@ -686,45 +686,52 @@ class InvestorLoginController extends Controller
 
         $id_first = substr($id, 0, -11);
 
-        if($id_first == 1 || $id_first == 3){
+        if(preg_match("#.*^(?=.{6})(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9]).*$#", $pass)){
+            if($id_first == 1 || $id_first == 3){
 
-            $password = md5($pass);
-            $reset = DB::table('principal_applicant')
-                    ->where('REGISTRATION_NO', '=', $id)
-                    ->where('CODE', '=', $code)
-                    ->update([
-                        'PASSWORD' => $password
-                    ]);
+                $password = md5($pass);
+                $reset = DB::table('principal_applicant')
+                        ->where('REGISTRATION_NO', '=', $id)
+                        ->where('CODE', '=', $code)
+                        ->update([
+                            'PASSWORD' => $password,
+                            'CODE' =>NULL
+                        ]);
 
-            if($reset == 1){
-                $result = 'Your Password Successfully Changed';
+                if($reset == 1){
+                    $result = 'Your Password Successfully Changed';
+                }
+                else{
+                    $result = 'Enter Correct User Id & Security Code';
+                }
+            }
+            elseif($id_first == 2){
+
+                $password = md5($pass);
+                $reset = DB::table('inst_app')
+                        ->where('REGISTRATION_NO', '=', $id)
+                        ->where('CODE', '=', $code)
+                        ->update([
+                            'PASSWORD' => $password,
+                            'CODE' =>NULL
+                        ]);
+
+                if($reset == 1){
+                    $result = 'Your Password Successfully Changed';
+                }
+                else{
+                    $result = 'Enter Correct User Id & Security Code';
+                }
             }
             else{
                 $result = 'Enter Correct User Id & Security Code';
             }
-        }
-        elseif($id_first == 2){
 
-            $password = md5($pass);
-            $reset = DB::table('inst_app')
-                    ->where('REGISTRATION_NO', '=', $id)
-                    ->where('CODE', '=', $code)
-                    ->update([
-                        'PASSWORD' => $password
-                    ]);
-
-            if($reset == 1){
-                $result = 'Your Password Successfully Changed';
-            }
-            else{
-                $result = 'Enter Correct User Id & Security Code';
-            }
+            return $result;
+        }else{
+            $result = 'Password must contain at least 6 characters, one digit, one lowercase and one uppercase';
+            return $result;
         }
-        else{
-            $result = 'Enter Correct User Id & Security Code';
-        }
-
-        return $result;
     }
 
     public function invSubReport(){
