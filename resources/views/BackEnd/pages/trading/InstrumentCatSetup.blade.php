@@ -71,7 +71,7 @@
 
 										<div class="row form-group">
 											<div class="col-sm-5">
-												<label class="col-form-label">Settlement Day [ DSE ]</label>
+												<label class="col-form-label">Settlement Day DSE</label>
 											</div>
 											<div class="col-sm-7">
 												<input type="number" name="sttelment_day_dse" class="form-control autonumber">
@@ -79,7 +79,7 @@
 										</div>
 										<div class="row form-group">
 											<div class="col-sm-5">
-												<label class="col-form-label">Settlement Day [ CSE ]</label>
+												<label class="col-form-label">Settlement Day CSE</label>
 											</div>
 											<div class="col-sm-7">
 												<input type="number" name="sttelment_day_cse" class="form-control autonumber">

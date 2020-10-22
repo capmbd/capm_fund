@@ -94,7 +94,17 @@
 												<label class="col-form-label">Status</label>
 											</div>
 											<div class="col-sm-7">
-												<input type="text" name="sttelment_day_cse" value="{{$inst_cat->status}}" class="form-control autonumber">
+												<select name="status" class="col-sm-12 form-select">
+													<option value="{{$inst_cat->status}}"> <?php if($inst_cat->status =='1'){
+													    echo 'Open';
+														}else{
+                                                            echo 'Close';
+														} ?></option>
+													<option value="">---Select Status---</option>
+													<option value="1">Open</option>
+													<option value="0">Close</option>
+												</select>
+
 											</div>
 										</div>
 
