@@ -139,7 +139,11 @@
         											<td> {{ $instrumentCat->sttelment_day_dse}} </td>
         											<td> {{ $instrumentCat->sttelment_day_cse}} </td>
 													<td> {{ $instrumentCat->description}} </td>
-													<td> {{ $instrumentCat->status}} </td>
+													<td> <?php if($instrumentCat->status=='1'){
+													    echo 'Open';
+														}else{
+													    echo 'Colse';
+														} ?></td>
         											<?php
         												$bkid = encrypt($instrumentCat->id);
         											?>

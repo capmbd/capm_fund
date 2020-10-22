@@ -419,12 +419,14 @@ class TradingController extends Controller
         return redirect('/trading/persetup')->with('message','Percentage update successfully done');
     }
 
-	
+	/* Motiur Start */
+
 	 public function instrument_cate_setup(){
 
         $instrumentCate = DB::table('instrument_cate')->paginate(5);
         return view('BackEnd.pages.trading.InstrumentCatSetup', ['instrumentCate' => $instrumentCate]);
     }
+
 	public function instrument_cate_add(Request $request){
         $insert_employee_id =Auth::user()->id;
         $code = $request->code;
@@ -447,6 +449,34 @@ class TradingController extends Controller
 
         return redirect('/trading/instrument_cate')->with('message','Instrument category save successfully done');
 	}
+
+    public function inst_cat_edit($id){
+
+        $id = decrypt($id);
+
+        $inst_cat = DB::table('instrument_cate')
+            ->where('id', '=', $id)
+            ->first();
+        return view('BackEnd.pages.trading.instrumentCate_update', ['inst_cat' => $inst_cat]);
+    }
+
+    public function inst_update(Request $request){
+
+        $id = $request->bid;
+        $code = $request->code;
+        $description = $request->description;
+        $sttelment_day_dse = $request->sttelment_day_dse;
+        $sttelment_day_cse = $request->sttelment_day_cse;
+        $status = $request->status;
+        $updated_at = Carbon::now();
+
+
+        DB::update('update instrument_cate set code = ?, description = ?, sttelment_day_dse = ?, sttelment_day_cse = ?, status = ?,  updated_at = ? where id = ?',[$code, $description, $sttelment_day_dse, $sttelment_day_cse, $status, $updated_at, $id]);
+
+        return redirect('/trading/instrument_cate')->with('message','Instrumnet Category Update Successfully Done');
+
+    }
+    /* Motiur End */
 
 
     public function sell_order(){
@@ -492,18 +522,7 @@ class TradingController extends Controller
      return redirect('/trading/sellorder')->with('message','Sell order successfully done');
        
     }
-	
-	public function inst_cat_edit($id){
 
-        $id = decrypt($id);
-
-        $inst_cat = DB::table('instrument_cate')
-                ->where('id', '=', $id)
-                ->first();
-		 return view('BackEnd.pages.trading.instrumentCate_update', ['inst_cat' => $inst_cat]);
-
-       
-    }
 
     public function sorder_conf($id){
 
