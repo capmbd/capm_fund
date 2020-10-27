@@ -17,6 +17,7 @@ return array(
     'App\\Http\\Controllers\\CorporateActionController' => $baseDir . '/app/Http/Controllers/CorporateActionController.php',
     'App\\Http\\Controllers\\FrontEndController' => $baseDir . '/app/Http/Controllers/FrontEndController.php',
     'App\\Http\\Controllers\\HomeController' => $baseDir . '/app/Http/Controllers/HomeController.php',
+    'App\\Http\\Controllers\\InvestmentTradeSetuptController' => $baseDir . '/app/Http/Controllers/InvestmentTradeSetuptController.php',
     'App\\Http\\Controllers\\InvestorLoginController' => $baseDir . '/app/Http/Controllers/InvestorLoginController.php',
     'App\\Http\\Controllers\\PageController' => $baseDir . '/app/Http/Controllers/PageController.php',
     'App\\Http\\Controllers\\PassResetController' => $baseDir . '/app/Http/Controllers/PassResetController.php',

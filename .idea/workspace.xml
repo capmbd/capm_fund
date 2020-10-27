@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be98e9d2-776d-487b-a3e5-2b3f34668cb4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/TradingController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/TradingController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/BackEnd/pages/trading/InstrumentCatSetup.blade.php" afterPath="$PROJECT_DIR$/resources/views/BackEnd/pages/trading/InstrumentCatSetup.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/web.php" afterPath="$PROJECT_DIR$/routes/web.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,12 +19,12 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="web.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="294" column="78" lean-forward="true" selection-start-line="294" selection-start-column="78" selection-end-line="294" selection-end-column="78" />
+            <state relative-caret-position="264">
+              <caret line="302" column="77" lean-forward="true" selection-start-line="302" selection-start-column="77" selection-end-line="302" selection-end-column="77" />
               <folding />
             </state>
           </provider>
@@ -31,18 +33,18 @@
       <file leaf-file-name="instrumentCate_update.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/BackEnd/pages/trading/instrumentCate_update.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="726">
+            <state relative-caret-position="2112">
               <caret line="96" column="68" lean-forward="false" selection-start-line="96" selection-start-column="62" selection-end-line="96" selection-end-column="68" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InstrumentCatSetup.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="InstrumentCatSetup.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/BackEnd/pages/trading/InstrumentCatSetup.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="144" column="69" lean-forward="true" selection-start-line="144" selection-start-column="69" selection-end-line="144" selection-end-column="69" />
+            <state relative-caret-position="22">
+              <caret line="144" column="69" lean-forward="false" selection-start-line="144" selection-start-column="69" selection-end-line="144" selection-end-column="69" />
               <folding />
             </state>
           </provider>
@@ -51,7 +53,7 @@
       <file leaf-file-name="TradingController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TradingController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
+            <state relative-caret-position="10252">
               <caret line="475" column="49" lean-forward="false" selection-start-line="475" selection-start-column="49" selection-end-line="475" selection-end-column="49" />
               <folding>
                 <marker date="1603359001530" expanded="true" signature="3000:3089" ph="update price... " />
@@ -80,6 +82,7 @@
         <option value="$PROJECT_DIR$/resources/views/BackEnd/pages/trading/instrumentCate_update.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/TradingController.php" />
         <option value="$PROJECT_DIR$/resources/views/BackEnd/pages/trading/InstrumentCatSetup.blade.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
       </list>
     </option>
   </component>
@@ -116,6 +119,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -308,7 +312,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -347,6 +350,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -381,18 +390,19 @@
       <option name="presentableId" value="Default" />
       <updated>1603276449773</updated>
       <workItem from="1603276451620" duration="1312000" />
-      <workItem from="1603344101341" duration="6848000" />
+      <workItem from="1603344101341" duration="7437000" />
+      <workItem from="1603776979373" duration="233000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8160000" />
+    <option name="totallyTimeSpent" value="8982000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1382" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36370596" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37136295" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32874355" sideWeight="0.5030628" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -423,11 +433,53 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6270">
+          <caret line="294" column="78" lean-forward="false" selection-start-line="294" selection-start-column="78" selection-end-line="294" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/BackEnd/pages/trading/instrumentCate_update.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2112">
+          <caret line="96" column="68" lean-forward="false" selection-start-line="96" selection-start-column="62" selection-end-line="96" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/BackEnd/pages/trading/InstrumentCatSetup.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TradingController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10450">
+          <caret line="475" column="49" lean-forward="false" selection-start-line="475" selection-start-column="49" selection-end-line="475" selection-end-column="49" />
+          <folding>
+            <marker date="1603359001530" expanded="true" signature="3000:3089" ph="update price... " />
+            <marker date="1603359001530" expanded="true" signature="4554:4659" ph="update broke... " />
+            <marker date="1603359001530" expanded="true" signature="5873:5942" ph="update secto... " />
+            <marker date="1603359001530" expanded="true" signature="7642:7723" ph="update stock... " />
+            <marker date="1603359001530" expanded="true" signature="10077:10142" ph="update trade... " />
+            <marker date="1603359001530" expanded="true" signature="14373:14453" ph="update to_pe... " />
+            <marker date="1603359001530" expanded="true" signature="16327:16467" ph="update instr... " />
+            <marker date="1603359001530" expanded="true" signature="18691:18762" ph="update sell_... " />
+            <marker date="1603359001530" expanded="true" signature="18969:19014" ph="delete from " />
+            <marker date="1603359001530" expanded="true" signature="19192:19231" ph="delete from " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/BackEnd/pages/trading/securities_trading.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-660">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -435,9 +487,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3630">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1603347454974" expanded="true" signature="9434:9449" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -445,21 +494,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="68" column="46" lean-forward="true" selection-start-line="68" selection-start-column="46" selection-end-line="68" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="294" column="78" lean-forward="true" selection-start-line="294" selection-start-column="78" selection-end-line="294" selection-end-column="78" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TradingController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
+        <state relative-caret-position="10252">
           <caret line="475" column="49" lean-forward="false" selection-start-line="475" selection-start-column="49" selection-end-line="475" selection-end-column="49" />
           <folding>
             <marker date="1603359001530" expanded="true" signature="3000:3089" ph="update price... " />
@@ -478,7 +518,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/BackEnd/pages/trading/instrumentCate_update.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
+        <state relative-caret-position="2112">
           <caret line="96" column="68" lean-forward="false" selection-start-line="96" selection-start-column="62" selection-end-line="96" selection-end-column="68" />
           <folding />
         </state>
@@ -486,8 +526,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/BackEnd/pages/trading/InstrumentCatSetup.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="144" column="69" lean-forward="true" selection-start-line="144" selection-start-column="69" selection-end-line="144" selection-end-column="69" />
+        <state relative-caret-position="22">
+          <caret line="144" column="69" lean-forward="false" selection-start-line="144" selection-start-column="69" selection-end-line="144" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="302" column="77" lean-forward="true" selection-start-line="302" selection-start-column="77" selection-end-line="302" selection-end-column="77" />
           <folding />
         </state>
       </provider>

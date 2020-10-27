@@ -489,6 +489,7 @@ class ComposerStaticInitc0b234599a3b5067c2e3f2e39f508a22
         'App\\Http\\Controllers\\CorporateActionController' => __DIR__ . '/../..' . '/app/Http/Controllers/CorporateActionController.php',
         'App\\Http\\Controllers\\FrontEndController' => __DIR__ . '/../..' . '/app/Http/Controllers/FrontEndController.php',
         'App\\Http\\Controllers\\HomeController' => __DIR__ . '/../..' . '/app/Http/Controllers/HomeController.php',
+        'App\\Http\\Controllers\\InvestmentTradeSetuptController' => __DIR__ . '/../..' . '/app/Http/Controllers/InvestmentTradeSetuptController.php',
         'App\\Http\\Controllers\\InvestorLoginController' => __DIR__ . '/../..' . '/app/Http/Controllers/InvestorLoginController.php',
         'App\\Http\\Controllers\\PageController' => __DIR__ . '/../..' . '/app/Http/Controllers/PageController.php',
         'App\\Http\\Controllers\\PassResetController' => __DIR__ . '/../..' . '/app/Http/Controllers/PassResetController.php',

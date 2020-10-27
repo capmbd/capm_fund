@@ -297,11 +297,18 @@ Route::Group([
 	Route::get('/instrumentCate/edit/{id}', 'TradingController@inst_cat_edit');
 	Route::post('/inst_cat/update', 'TradingController@inst_update');
 
+    Route::get('/instrument', 'TradingController@instrument_setup');
+    Route::post('/Instrument/save', 'TradingController@instrument_add');
+    Route::get('/instrument/edit/{id}', 'TradingController@instrument_edit');
+    Route::post('/instrument/update', 'TradingController@instrument_update');
+
 	Route::get('/sellorder', 'TradingController@sell_order');
 	Route::post('/soder/save', 'TradingController@soder_add');
 	Route::get('/pending/sell/{id}', 'TradingController@sorder_conf');
 	Route::get('/delete/sell/{id}', 'TradingController@sorder_del');
+
 });
+
 
 Route::Group([
 	'prefix' => '/corporate-action'
