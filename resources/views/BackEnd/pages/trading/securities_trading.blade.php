@@ -207,7 +207,7 @@
 																	<tbody>
 																		<tr>
 																			<td class="panel-menu-card">
-																				<i class="fas fa-hand-point-right"></i><a href="#">Sell Confirmation Reports</a>
+																				<i class="fas fa-hand-point-right"></i><a href=" {{url('/trading/sorder/conf')}} ">Sell Confirmation Reports</a>
 																			</td>
 																		</tr>
 																		<tr>

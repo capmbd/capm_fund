@@ -557,4 +557,25 @@ class TradingController extends Controller
         return redirect('/trading/torder')->with('message','Trade Order Delete Successfully Done');
 
     }
+
+    public function sorder_conf_rpt(){
+
+        $brokers = DB::table('broker')->get();
+        return view('BackEnd.pages.trading.sellconfreport', ['brokers' => $brokers]);
+    }
+
+    public function get_sorder_rpt($brk, $trd){
+
+        $order_info = DB::table('sell_order')
+                      ->join('broker', 'sell_order.BROKER_ID', '=', 'broker.BROKER_ID')
+                      ->join('stock', 'sell_order.STOCK_ID', '=', 'stock.STOCK_ID')
+                      ->join('sector', 'stock.SECTOR_ID', '=', 'sector.SECTOR_ID')
+                      ->select('sell_order.*', 'broker.BROKER_NAME', 'broker.BROKER_CODE', 'stock.STOCK_NAME', 'sector.SECTOR_NAME')
+                      ->where('sell_order.STATUS', 'C')
+                      ->where('sell_order.BROKER_ID', $brk)
+                      ->where('sell_order.TRADE_DATE', $trd)
+                      ->get();
+        return response()->json($order_info);
+        
+    }
 }
