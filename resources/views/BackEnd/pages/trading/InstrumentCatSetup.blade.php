@@ -29,7 +29,7 @@
 								<i class="feather icon-menu"></i>
 							</a>
 						</li>
-						<li class="breadcrumb-item"><a href=" {{ url('/trading/broker') }} ">Category Setup</a></li>
+						<li class="breadcrumb-item"><a href=" {{ url('/trading/instrument_cate') }} ">Category Setup</a></li>
 					</ul>
 				</div>
 			</div>

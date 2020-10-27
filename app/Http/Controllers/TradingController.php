@@ -476,6 +476,15 @@ class TradingController extends Controller
         return redirect('/trading/instrument_cate')->with('message','Instrumnet Category Update Successfully Done');
 
     }
+
+    public function instrument_setup(){
+
+        $instrument = DB::table('instrument')->paginate(5);
+        $sectors = DB::table('sector')->get();
+        $instrumentCate = DB::table('instrument_cate')->get();
+        return view('BackEnd.pages.trading.InstrumentSetup',['instrument' => $instrument ,'sectors' => $sectors ,'instrumentCate' => $instrumentCate]);
+
+    }
     /* Motiur End */
 
 
