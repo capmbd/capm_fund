@@ -534,6 +534,8 @@ class TradingController extends Controller
 
     /* Motiur End function*/
 
+    //start
+
 
     public function sell_order(){
 
@@ -683,4 +685,7 @@ class TradingController extends Controller
 
         return 'Sell Order Send Successfully Done';
     }
+
+    //end
+
 }
