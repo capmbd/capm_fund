@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="be98e9d2-776d-487b-a3e5-2b3f34668cb4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/TradingController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/TradingController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/BackEnd/pages/trading/InstrumentSetup.blade.php" afterPath="$PROJECT_DIR$/resources/views/BackEnd/pages/trading/InstrumentSetup.blade.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,7 +27,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InstrumentSetup.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="InstrumentSetup.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/BackEnd/pages/trading/InstrumentSetup.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="20">
@@ -38,22 +37,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TradingController.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TradingController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TradingController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="346" column="28" lean-forward="false" selection-start-line="345" selection-start-column="8" selection-end-line="348" selection-end-column="30" />
+            <state relative-caret-position="340">
+              <caret line="534" column="28" lean-forward="true" selection-start-line="534" selection-start-column="28" selection-end-line="534" selection-end-column="28" />
               <folding>
-                <marker date="1603876139835" expanded="true" signature="3000:3089" ph="update price... " />
-                <marker date="1603876139835" expanded="true" signature="4554:4659" ph="update broke... " />
-                <marker date="1603876139835" expanded="true" signature="5873:5942" ph="update secto... " />
-                <marker date="1603876139835" expanded="true" signature="7642:7723" ph="update stock... " />
-                <marker date="1603876139835" expanded="true" signature="10077:10142" ph="update trade... " />
-                <marker date="1603876139835" expanded="true" signature="14373:14453" ph="update to_pe... " />
-                <marker date="1603876139835" expanded="true" signature="16327:16467" ph="update instr... " />
-                <marker date="1603876139835" expanded="true" signature="20817:20888" ph="update sell_... " />
-                <marker date="1603876139835" expanded="true" signature="21095:21140" ph="delete from " />
-                <marker date="1603876139835" expanded="true" signature="21318:21357" ph="delete from " />
+                <marker date="1603881158889" expanded="true" signature="3000:3089" ph="update price... " />
+                <marker date="1603881158889" expanded="true" signature="4554:4659" ph="update broke... " />
+                <marker date="1603881158889" expanded="true" signature="5873:5942" ph="update secto... " />
+                <marker date="1603881158889" expanded="true" signature="7642:7723" ph="update stock... " />
+                <marker date="1603881158889" expanded="true" signature="10077:10142" ph="update trade... " />
+                <marker date="1603881158889" expanded="true" signature="14373:14453" ph="update to_pe... " />
+                <marker date="1603881158889" expanded="true" signature="16327:16467" ph="update instr... " />
+                <marker date="1603881158889" expanded="true" signature="20826:20897" ph="update sell_... " />
+                <marker date="1603881158889" expanded="true" signature="21104:21149" ph="delete from " />
+                <marker date="1603881158889" expanded="true" signature="21327:21366" ph="delete from " />
               </folding>
             </state>
           </provider>
@@ -85,8 +84,8 @@
         <option value="$PROJECT_DIR$/resources/views/BackEnd/pages/trading/instrumentCate_update.blade.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/resources/views/BackEnd/pages/trading/InstrumentCatSetup.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/TradingController.php" />
         <option value="$PROJECT_DIR$/resources/views/BackEnd/pages/trading/InstrumentSetup.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/TradingController.php" />
       </list>
     </option>
   </component>
@@ -431,15 +430,15 @@
       <workItem from="1603276451620" duration="1312000" />
       <workItem from="1603344101341" duration="7437000" />
       <workItem from="1603776979373" duration="11024000" />
-      <workItem from="1603862540471" duration="4838000" />
+      <workItem from="1603862540471" duration="5311000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24611000" />
+    <option name="totallyTimeSpent" value="25084000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1382" height="744" extended-state="1" />
+    <frame x="-8" y="0" width="1382" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3300153" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -502,16 +501,16 @@
         <state relative-caret-position="10648">
           <caret line="484" column="128" lean-forward="false" selection-start-line="484" selection-start-column="114" selection-end-line="484" selection-end-column="128" />
           <folding>
-            <marker date="1603876139835" expanded="true" signature="3000:3089" ph="update price... " />
-            <marker date="1603876139835" expanded="true" signature="4554:4659" ph="update broke... " />
-            <marker date="1603876139835" expanded="true" signature="5873:5942" ph="update secto... " />
-            <marker date="1603876139835" expanded="true" signature="7642:7723" ph="update stock... " />
-            <marker date="1603876139835" expanded="true" signature="10077:10142" ph="update trade... " />
-            <marker date="1603876139835" expanded="true" signature="14373:14453" ph="update to_pe... " />
-            <marker date="1603876139835" expanded="true" signature="16327:16467" ph="update instr... " />
-            <marker date="1603876139835" expanded="true" signature="20817:20888" ph="update sell_... " />
-            <marker date="1603876139835" expanded="true" signature="21095:21140" ph="delete from " />
-            <marker date="1603876139835" expanded="true" signature="21318:21357" ph="delete from " />
+            <marker date="1603881158889" expanded="true" signature="3000:3089" ph="update price... " />
+            <marker date="1603881158889" expanded="true" signature="4554:4659" ph="update broke... " />
+            <marker date="1603881158889" expanded="true" signature="5873:5942" ph="update secto... " />
+            <marker date="1603881158889" expanded="true" signature="7642:7723" ph="update stock... " />
+            <marker date="1603881158889" expanded="true" signature="10077:10142" ph="update trade... " />
+            <marker date="1603881158889" expanded="true" signature="14373:14453" ph="update to_pe... " />
+            <marker date="1603881158889" expanded="true" signature="16327:16467" ph="update instr... " />
+            <marker date="1603881158889" expanded="true" signature="20826:20897" ph="update sell_... " />
+            <marker date="1603881158889" expanded="true" signature="21104:21149" ph="delete from " />
+            <marker date="1603881158889" expanded="true" signature="21327:21366" ph="delete from " />
           </folding>
         </state>
       </provider>
@@ -544,16 +543,16 @@
         <state relative-caret-position="10450">
           <caret line="475" column="49" lean-forward="false" selection-start-line="475" selection-start-column="49" selection-end-line="475" selection-end-column="49" />
           <folding>
-            <marker date="1603876139835" expanded="true" signature="3000:3089" ph="update price... " />
-            <marker date="1603876139835" expanded="true" signature="4554:4659" ph="update broke... " />
-            <marker date="1603876139835" expanded="true" signature="5873:5942" ph="update secto... " />
-            <marker date="1603876139835" expanded="true" signature="7642:7723" ph="update stock... " />
-            <marker date="1603876139835" expanded="true" signature="10077:10142" ph="update trade... " />
-            <marker date="1603876139835" expanded="true" signature="14373:14453" ph="update to_pe... " />
-            <marker date="1603876139835" expanded="true" signature="16327:16467" ph="update instr... " />
-            <marker date="1603876139835" expanded="true" signature="20817:20888" ph="update sell_... " />
-            <marker date="1603876139835" expanded="true" signature="21095:21140" ph="delete from " />
-            <marker date="1603876139835" expanded="true" signature="21318:21357" ph="delete from " />
+            <marker date="1603881158889" expanded="true" signature="3000:3089" ph="update price... " />
+            <marker date="1603881158889" expanded="true" signature="4554:4659" ph="update broke... " />
+            <marker date="1603881158889" expanded="true" signature="5873:5942" ph="update secto... " />
+            <marker date="1603881158889" expanded="true" signature="7642:7723" ph="update stock... " />
+            <marker date="1603881158889" expanded="true" signature="10077:10142" ph="update trade... " />
+            <marker date="1603881158889" expanded="true" signature="14373:14453" ph="update to_pe... " />
+            <marker date="1603881158889" expanded="true" signature="16327:16467" ph="update instr... " />
+            <marker date="1603881158889" expanded="true" signature="20826:20897" ph="update sell_... " />
+            <marker date="1603881158889" expanded="true" signature="21104:21149" ph="delete from " />
+            <marker date="1603881158889" expanded="true" signature="21327:21366" ph="delete from " />
           </folding>
         </state>
       </provider>
@@ -625,30 +624,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TradingController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="346" column="28" lean-forward="false" selection-start-line="345" selection-start-column="8" selection-end-line="348" selection-end-column="30" />
-          <folding>
-            <marker date="1603876139835" expanded="true" signature="3000:3089" ph="update price... " />
-            <marker date="1603876139835" expanded="true" signature="4554:4659" ph="update broke... " />
-            <marker date="1603876139835" expanded="true" signature="5873:5942" ph="update secto... " />
-            <marker date="1603876139835" expanded="true" signature="7642:7723" ph="update stock... " />
-            <marker date="1603876139835" expanded="true" signature="10077:10142" ph="update trade... " />
-            <marker date="1603876139835" expanded="true" signature="14373:14453" ph="update to_pe... " />
-            <marker date="1603876139835" expanded="true" signature="16327:16467" ph="update instr... " />
-            <marker date="1603876139835" expanded="true" signature="20817:20888" ph="update sell_... " />
-            <marker date="1603876139835" expanded="true" signature="21095:21140" ph="delete from " />
-            <marker date="1603876139835" expanded="true" signature="21318:21357" ph="delete from " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/BackEnd/pages/trading/InstrumentSetup.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
           <caret line="245" column="71" lean-forward="true" selection-start-line="245" selection-start-column="71" selection-end-line="245" selection-end-column="71" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TradingController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="534" column="28" lean-forward="true" selection-start-line="534" selection-start-column="28" selection-end-line="534" selection-end-column="28" />
+          <folding>
+            <marker date="1603881158889" expanded="true" signature="3000:3089" ph="update price... " />
+            <marker date="1603881158889" expanded="true" signature="4554:4659" ph="update broke... " />
+            <marker date="1603881158889" expanded="true" signature="5873:5942" ph="update secto... " />
+            <marker date="1603881158889" expanded="true" signature="7642:7723" ph="update stock... " />
+            <marker date="1603881158889" expanded="true" signature="10077:10142" ph="update trade... " />
+            <marker date="1603881158889" expanded="true" signature="14373:14453" ph="update to_pe... " />
+            <marker date="1603881158889" expanded="true" signature="16327:16467" ph="update instr... " />
+            <marker date="1603881158889" expanded="true" signature="20826:20897" ph="update sell_... " />
+            <marker date="1603881158889" expanded="true" signature="21104:21149" ph="delete from " />
+            <marker date="1603881158889" expanded="true" signature="21327:21366" ph="delete from " />
+          </folding>
         </state>
       </provider>
     </entry>

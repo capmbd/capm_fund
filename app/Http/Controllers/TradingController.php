@@ -531,7 +531,8 @@ class TradingController extends Controller
 
         return redirect('/trading/instrument')->with('message','Instrument save successfully done');
     }
-    /* Motiur End */
+
+    /* Motiur End function*/
 
 
     public function sell_order(){
