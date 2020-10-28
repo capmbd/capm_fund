@@ -485,7 +485,54 @@ class TradingController extends Controller
         return view('BackEnd.pages.trading.InstrumentSetup',['instrument' => $instrument ,'sectors' => $sectors ,'instrumentCate' => $instrumentCate]);
 
     }
-    /* Motiur End */
+
+    public function instrument_add(Request $request){
+        $insert_employee_id =Auth::user()->id;
+        $inst_name = $request->inst_name;
+        $inst_cat = $request->inst_cat;
+        $short_name = $request->short_name;
+        $ISIN = $request->ISIN;
+        $market_price = $request->market_price;
+        $inst_type = $request->inst_type;
+        $pe_ratio = $request->pe_ratio;
+        $total_share = $request->total_share;
+        $dec_date = $request->dec_date;
+        $face_value = $request->face_value;
+        $premium = $request->premium;
+        $marginable_status = $request->marginable_status;
+        $latest_eps = $request->latest_eps;
+        $public_share = $request->public_share;
+        $sector_cate = $request->sector_cate;
+        $status = $request->status;
+
+        $data=array(
+            'inst_name'=>$inst_name,
+            'inst_cat'=>$inst_cat,
+            'short_name'=>$short_name,
+            'ISIN'=>$ISIN,
+            'market_price'=>$market_price,
+            'inst_type'=>$inst_type,
+            'pe_ratio'=>$pe_ratio,
+            'total_share'=>$total_share,
+            'dec_date'=>$dec_date,
+            'face_value'=>$face_value,
+            'premium'=>$premium,
+            'marginable_status'=>($marginable_status)?($marginable_status):'FALSE',
+            'latest_eps'=>$latest_eps,
+            'public_share'=>$public_share,
+            'sector_cate'=>$sector_cate,
+            'status'=>$status,
+            'insert_employee_id'=>$insert_employee_id,
+            'created_at'=>Carbon::now(),
+            'updated_at'=>Carbon::now()
+        );
+
+        DB::table('instrument')->insert($data);
+
+        return redirect('/trading/instrument')->with('message','Instrument save successfully done');
+    }
+
+    /* Motiur End function*/
 
 
     public function sell_order(){
