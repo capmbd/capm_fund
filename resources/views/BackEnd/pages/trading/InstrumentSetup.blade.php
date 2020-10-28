@@ -48,7 +48,7 @@
 									<p class="text-danger insert_message"> <b> {{ Session::get('messagen') }} </b> </p>
 								</div>
 								<div class="card-block">
-									<form id="cate_form" action=" {{ url('/trading/InstrumentCat/save') }} " method="post">
+									<form id="cate_form" action=" {{ url('/trading/Instrument/save') }} " method="post">
 
 									@csrf
 
@@ -242,21 +242,31 @@
         											<th>Category</th>
         											<th>Short Name</th>
 													<th>ISIN</th>
+													<th>Market Price</th>
+													<th>Marginable</th>
 													<th>Status</th>
         											<th>Action</th>
       											</tr>
     										</thead>
     										<tbody>
       										@foreach($instrument as $inst)
+												<?php
+                                                $cat_info = DB::table('instrument_cate')
+                                                    ->select('code')
+                                                    ->where('id', '=', $inst->inst_cat)
+                                                    ->first();
+												 ?>
       											<tr>
         											<td> {{ $inst->inst_name}} </td>
-        											<td> {{ $inst->inst_cat}} </td>
+        											<td> {{ $cat_info->code}} </td>
         											<td> {{ $inst->short_name}} </td>
 													<td> {{ $inst->ISIN}} </td>
+													<td> {{ $inst->market_price}} </td>
+													<td> {{ $inst->marginable_status}} </td>
 													<td> <?php if($inst->status=='1'){
-													    echo 'Open';
+													    echo 'Active';
 														}else{
-													    echo 'Colse';
+													    echo 'Inactive';
 														} ?></td>
         											<?php
         												$bkid = encrypt($inst->id);
