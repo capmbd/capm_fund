@@ -293,6 +293,7 @@ Route::Group([
 	Route::get('/pending/sell/{id}', 'TradingController@sorder_conf');
 	Route::get('/sorder/conf', 'TradingController@sorder_conf_rpt');
 	Route::get('/sorderconfbybrokId/{brk}/{trd}', 'TradingController@get_sorder_rpt');
+	Route::get('/sorder_mail/{brk}/{trd}', 'TradingController@send_sorder_mail');
 
 	Route::get('/instrument_cate', 'TradingController@instrument_cate_setup');
 	Route::post('/InstrumentCat/save', 'TradingController@instrument_cate_add');

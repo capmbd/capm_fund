@@ -575,7 +575,65 @@ class TradingController extends Controller
                       ->where('sell_order.BROKER_ID', $brk)
                       ->where('sell_order.TRADE_DATE', $trd)
                       ->get();
-        return response()->json($order_info);
+        return response()->json($order_info);   
+    }
+
+    public function send_sorder_mail($brk, $trd){
         
+        $order_info = DB::table('sell_order')
+                      ->join('broker', 'sell_order.BROKER_ID', '=', 'broker.BROKER_ID')
+                      ->join('stock', 'sell_order.STOCK_ID', '=', 'stock.STOCK_ID')
+                      ->join('sector', 'stock.SECTOR_ID', '=', 'sector.SECTOR_ID')
+                      ->select('sell_order.*', 'broker.BROKER_NAME', 'stock.STOCK_NAME', 'sector.SECTOR_NAME')
+                      ->where('sell_order.STATUS', 'C')
+                      ->where('sell_order.BROKER_ID', $brk)
+                      ->where('sell_order.TRADE_DATE', $trd)
+                      ->get();
+
+        $brk_info = DB::table('broker')
+                    ->select('BROKER_NAME', 'BROKER_CODE', 'BROKER_EMAIL')
+                    ->where('BROKER_ID', '=', $brk)
+                    ->first();
+                    
+        $n_status = 'S';
+        $to_st_up = DB::table('sell_order')
+                  ->where('BROKER_ID', '=', $brk)
+                  ->where('TRADE_DATE', '=', $trd )
+                  ->update([
+                        'STATUS' => $n_status
+                  ]);
+
+        $brk_mail = $brk_info->BROKER_EMAIL;
+        $uploadPath ='./investment/sellorder/';
+        $file_name = 'SO_'.$brk_info->BROKER_NAME.'_'.date("d_M_Y",strtotime($trd)).'_'.Carbon::now()->format('H_i_s_A');
+
+        $pdf_url = 'investment/sellorder/'.$file_name.'.pdf';
+        $heading = date("d-M-Y",strtotime($trd)).' '.$brk_info->BROKER_NAME;
+        $pdf_data=array(
+            'TO_URL'=>$pdf_url,
+            'HEADING'=>$heading,
+            'created_at'=>Carbon::now(),
+            'updated_at'=>Carbon::now()
+        );
+        DB::table('to_pdf')->insert($pdf_data);
+
+        $pdf = PDF::loadView('BackEnd.pages.reports.so_pdf', compact('order_info','brk_info', 'trd'))->save($uploadPath.$file_name.'.pdf' );
+
+        $emails = [$brk_mail];
+        try{
+            Mail::send([], [], function($message) use ($emails, $uploadPath, $file_name){
+                $message->from('amcuf@capmfunds.com', 'CAPM Fund Management');
+                $message->to($emails);
+                $message->subject('Sell Order From CAPM');
+                $message->attach($uploadPath.$file_name.'.pdf');
+            });
+
+        }
+
+        catch(\Exception $e){
+            return 'Sell Order Not Send';
+        }
+
+        return 'Sell Order Send Successfully Done';
     }
 }

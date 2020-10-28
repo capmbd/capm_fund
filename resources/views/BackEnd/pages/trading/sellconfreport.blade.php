@@ -387,16 +387,16 @@
             var brk_id = $('#broker_id').val();
 
     		$.ajax({
-			    url: '/trading/torder_mail/'+brk_id+'/'+trdt,
+			    url: '/trading/sorder_mail/'+brk_id+'/'+trdt,
 			    type: "GET",
 			    data : {"_token":"{{ csrf_token() }}"},
 			    success:function(data) {
 
-			       	if(data == 'Trade Order Send Successfully Done'){
+			       	if(data == 'Sell Order Send Successfully Done'){
                         document.getElementById("mail_msg").innerHTML=data;
                     }
                  	else{
-                        document.getElementById("mail_msg_n").innerHTML='Trade Order Not Send';
+                        document.getElementById("mail_msg_n").innerHTML='Sell Order Not Send';
                     }
 			    }
 			});			      
