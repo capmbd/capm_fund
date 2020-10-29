@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be98e9d2-776d-487b-a3e5-2b3f34668cb4" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/BackEnd/pages/trading/instrument_update.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/TradingController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/TradingController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/BackEnd/pages/trading/InstrumentSetup.blade.php" afterPath="$PROJECT_DIR$/resources/views/BackEnd/pages/trading/InstrumentSetup.blade.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -11,58 +14,61 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ComposerSettings" doNotAsk="true" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/web.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="302" column="69" lean-forward="false" selection-start-line="302" selection-start-column="55" selection-end-line="302" selection-end-column="69" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InstrumentSetup.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/BackEnd/pages/trading/InstrumentSetup.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="245" column="71" lean-forward="true" selection-start-line="245" selection-start-column="71" selection-end-line="245" selection-end-column="71" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TradingController.php" pinned="false" current-in-tab="true">
+    <leaf>
+      <file leaf-file-name="TradingController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TradingController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="534" column="28" lean-forward="true" selection-start-line="534" selection-start-column="28" selection-end-line="534" selection-end-column="28" />
+            <state relative-caret-position="-4272">
+              <caret line="488" column="5" lean-forward="false" selection-start-line="488" selection-start-column="5" selection-end-line="488" selection-end-column="5" />
               <folding>
-                <marker date="1603881158889" expanded="true" signature="3000:3089" ph="update price... " />
-                <marker date="1603881158889" expanded="true" signature="4554:4659" ph="update broke... " />
-                <marker date="1603881158889" expanded="true" signature="5873:5942" ph="update secto... " />
-                <marker date="1603881158889" expanded="true" signature="7642:7723" ph="update stock... " />
-                <marker date="1603881158889" expanded="true" signature="10077:10142" ph="update trade... " />
-                <marker date="1603881158889" expanded="true" signature="14373:14453" ph="update to_pe... " />
-                <marker date="1603881158889" expanded="true" signature="16327:16467" ph="update instr... " />
-                <marker date="1603881158889" expanded="true" signature="20826:20897" ph="update sell_... " />
-                <marker date="1603881158889" expanded="true" signature="21104:21149" ph="delete from " />
-                <marker date="1603881158889" expanded="true" signature="21327:21366" ph="delete from " />
+                <element signature="e#40#68#0#PHP" expanded="true" />
+                <marker date="1603970821667" expanded="true" signature="3000:3089" ph="update price... " />
+                <marker date="1603970821667" expanded="true" signature="4554:4659" ph="update broke... " />
+                <marker date="1603970821667" expanded="true" signature="5873:5942" ph="update secto... " />
+                <marker date="1603970821667" expanded="true" signature="7642:7723" ph="update stock... " />
+                <marker date="1603970821667" expanded="true" signature="10077:10142" ph="update trade... " />
+                <marker date="1603970821667" expanded="true" signature="14373:14453" ph="update to_pe... " />
+                <marker date="1603970821667" expanded="true" signature="16327:16467" ph="update instr... " />
+                <marker date="1603970821667" expanded="true" signature="19784:19951" ph="update instr... " />
+                <marker date="1603970821667" expanded="true" signature="22206:22277" ph="update sell_... " />
+                <marker date="1603970821667" expanded="true" signature="22484:22529" ph="delete from " />
+                <marker date="1603970821667" expanded="true" signature="22707:22746" ph="delete from " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="instrumentCate_update.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/BackEnd/pages/trading/instrumentCate_update.blade.php">
+      <file leaf-file-name="instrument_update.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/BackEnd/pages/trading/instrument_update.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2112">
-              <caret line="96" column="68" lean-forward="false" selection-start-line="96" selection-start-column="62" selection-end-line="96" selection-end-column="68" />
+            <state relative-caret-position="-778">
+              <caret line="120" column="57" lean-forward="false" selection-start-line="120" selection-start-column="57" selection-end-line="120" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InstrumentSetup.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/BackEnd/pages/trading/InstrumentSetup.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="260" column="75" lean-forward="false" selection-start-line="260" selection-start-column="75" selection-end-line="260" selection-end-column="75" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/web.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="302" column="68" lean-forward="true" selection-start-line="302" selection-start-column="68" selection-end-line="302" selection-end-column="68" />
               <folding />
             </state>
           </provider>
@@ -84,8 +90,9 @@
         <option value="$PROJECT_DIR$/resources/views/BackEnd/pages/trading/instrumentCate_update.blade.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/resources/views/BackEnd/pages/trading/InstrumentCatSetup.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/BackEnd/pages/trading/InstrumentSetup.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/BackEnd/pages/trading/instrument_update.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/TradingController.php" />
+        <option value="$PROJECT_DIR$/resources/views/BackEnd/pages/trading/InstrumentSetup.blade.php" />
       </list>
     </option>
   </component>
@@ -97,7 +104,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="width" value="1382" />
@@ -121,6 +128,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -256,36 +264,6 @@
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BackEnd" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="subred" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="capm_fund" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="capm_fund" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -298,52 +276,11 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="capm_fund" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="capm_fund" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Http" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="capm_fund" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="capm_fund" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Http" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controllers" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -431,17 +368,19 @@
       <workItem from="1603344101341" duration="7437000" />
       <workItem from="1603776979373" duration="11024000" />
       <workItem from="1603862540471" duration="5311000" />
+      <workItem from="1603943770548" duration="14317000" />
+      <workItem from="1603971543090" duration="992000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25084000" />
+    <option name="totallyTimeSpent" value="40669000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1382" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3300153" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34379786" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32874355" sideWeight="0.5030628" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -474,6 +413,43 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6666">
+          <caret line="303" column="69" lean-forward="false" selection-start-line="303" selection-start-column="55" selection-end-line="303" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/BackEnd/pages/trading/InstrumentSetup.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5390">
+          <caret line="245" column="71" lean-forward="false" selection-start-line="245" selection-start-column="71" selection-end-line="245" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TradingController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="true" />
+            <marker date="1603970821667" expanded="true" signature="3000:3089" ph="update price... " />
+            <marker date="1603970821667" expanded="true" signature="4554:4659" ph="update broke... " />
+            <marker date="1603970821667" expanded="true" signature="5873:5942" ph="update secto... " />
+            <marker date="1603970821667" expanded="true" signature="7642:7723" ph="update stock... " />
+            <marker date="1603970821667" expanded="true" signature="10077:10142" ph="update trade... " />
+            <marker date="1603970821667" expanded="true" signature="14373:14453" ph="update to_pe... " />
+            <marker date="1603970821667" expanded="true" signature="16327:16467" ph="update instr... " />
+            <marker date="1603970821667" expanded="true" signature="19784:19951" ph="update instr... " />
+            <marker date="1603970821667" expanded="true" signature="22206:22277" ph="update sell_... " />
+            <marker date="1603970821667" expanded="true" signature="22484:22529" ph="delete from " />
+            <marker date="1603970821667" expanded="true" signature="22707:22746" ph="delete from " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4092">
           <caret line="186" column="72" lean-forward="false" selection-start-line="186" selection-start-column="40" selection-end-line="186" selection-end-column="72" />
           <folding />
@@ -492,7 +468,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2112">
           <caret line="96" column="68" lean-forward="false" selection-start-line="96" selection-start-column="62" selection-end-line="96" selection-end-column="68" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -501,16 +476,18 @@
         <state relative-caret-position="10648">
           <caret line="484" column="128" lean-forward="false" selection-start-line="484" selection-start-column="114" selection-end-line="484" selection-end-column="128" />
           <folding>
-            <marker date="1603881158889" expanded="true" signature="3000:3089" ph="update price... " />
-            <marker date="1603881158889" expanded="true" signature="4554:4659" ph="update broke... " />
-            <marker date="1603881158889" expanded="true" signature="5873:5942" ph="update secto... " />
-            <marker date="1603881158889" expanded="true" signature="7642:7723" ph="update stock... " />
-            <marker date="1603881158889" expanded="true" signature="10077:10142" ph="update trade... " />
-            <marker date="1603881158889" expanded="true" signature="14373:14453" ph="update to_pe... " />
-            <marker date="1603881158889" expanded="true" signature="16327:16467" ph="update instr... " />
-            <marker date="1603881158889" expanded="true" signature="20826:20897" ph="update sell_... " />
-            <marker date="1603881158889" expanded="true" signature="21104:21149" ph="delete from " />
-            <marker date="1603881158889" expanded="true" signature="21327:21366" ph="delete from " />
+            <element signature="e#40#68#0#PHP" expanded="true" />
+            <marker date="1603970821667" expanded="true" signature="3000:3089" ph="update price... " />
+            <marker date="1603970821667" expanded="true" signature="4554:4659" ph="update broke... " />
+            <marker date="1603970821667" expanded="true" signature="5873:5942" ph="update secto... " />
+            <marker date="1603970821667" expanded="true" signature="7642:7723" ph="update stock... " />
+            <marker date="1603970821667" expanded="true" signature="10077:10142" ph="update trade... " />
+            <marker date="1603970821667" expanded="true" signature="14373:14453" ph="update to_pe... " />
+            <marker date="1603970821667" expanded="true" signature="16327:16467" ph="update instr... " />
+            <marker date="1603970821667" expanded="true" signature="19784:19951" ph="update instr... " />
+            <marker date="1603970821667" expanded="true" signature="22206:22277" ph="update sell_... " />
+            <marker date="1603970821667" expanded="true" signature="22484:22529" ph="delete from " />
+            <marker date="1603970821667" expanded="true" signature="22707:22746" ph="delete from " />
           </folding>
         </state>
       </provider>
@@ -527,7 +504,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2112">
           <caret line="96" column="68" lean-forward="false" selection-start-line="96" selection-start-column="62" selection-end-line="96" selection-end-column="68" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -543,16 +519,18 @@
         <state relative-caret-position="10450">
           <caret line="475" column="49" lean-forward="false" selection-start-line="475" selection-start-column="49" selection-end-line="475" selection-end-column="49" />
           <folding>
-            <marker date="1603881158889" expanded="true" signature="3000:3089" ph="update price... " />
-            <marker date="1603881158889" expanded="true" signature="4554:4659" ph="update broke... " />
-            <marker date="1603881158889" expanded="true" signature="5873:5942" ph="update secto... " />
-            <marker date="1603881158889" expanded="true" signature="7642:7723" ph="update stock... " />
-            <marker date="1603881158889" expanded="true" signature="10077:10142" ph="update trade... " />
-            <marker date="1603881158889" expanded="true" signature="14373:14453" ph="update to_pe... " />
-            <marker date="1603881158889" expanded="true" signature="16327:16467" ph="update instr... " />
-            <marker date="1603881158889" expanded="true" signature="20826:20897" ph="update sell_... " />
-            <marker date="1603881158889" expanded="true" signature="21104:21149" ph="delete from " />
-            <marker date="1603881158889" expanded="true" signature="21327:21366" ph="delete from " />
+            <element signature="e#40#68#0#PHP" expanded="true" />
+            <marker date="1603970821667" expanded="true" signature="3000:3089" ph="update price... " />
+            <marker date="1603970821667" expanded="true" signature="4554:4659" ph="update broke... " />
+            <marker date="1603970821667" expanded="true" signature="5873:5942" ph="update secto... " />
+            <marker date="1603970821667" expanded="true" signature="7642:7723" ph="update stock... " />
+            <marker date="1603970821667" expanded="true" signature="10077:10142" ph="update trade... " />
+            <marker date="1603970821667" expanded="true" signature="14373:14453" ph="update to_pe... " />
+            <marker date="1603970821667" expanded="true" signature="16327:16467" ph="update instr... " />
+            <marker date="1603970821667" expanded="true" signature="19784:19951" ph="update instr... " />
+            <marker date="1603970821667" expanded="true" signature="22206:22277" ph="update sell_... " />
+            <marker date="1603970821667" expanded="true" signature="22484:22529" ph="delete from " />
+            <marker date="1603970821667" expanded="true" signature="22707:22746" ph="delete from " />
           </folding>
         </state>
       </provider>
@@ -568,14 +546,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="68" column="46" lean-forward="true" selection-start-line="68" selection-start-column="46" selection-end-line="68" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/BackEnd/pages/trading/instrumentCate_update.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2112">
-          <caret line="96" column="68" lean-forward="false" selection-start-line="96" selection-start-column="62" selection-end-line="96" selection-end-column="68" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -603,7 +573,7 @@
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="302" column="69" lean-forward="false" selection-start-line="302" selection-start-column="55" selection-end-line="302" selection-end-column="69" />
+          <caret line="303" column="69" lean-forward="false" selection-start-line="303" selection-start-column="55" selection-end-line="303" selection-end-column="69" />
           <folding />
         </state>
       </provider>
@@ -612,7 +582,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4562">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -620,34 +589,301 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4962">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/BackEnd/pages/trading/InstrumentSetup.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
-          <caret line="245" column="71" lean-forward="true" selection-start-line="245" selection-start-column="71" selection-end-line="245" selection-end-column="71" />
+          <caret line="245" column="71" lean-forward="false" selection-start-line="245" selection-start-column="71" selection-end-line="245" selection-end-column="71" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/BackEnd/pages/trading/instrumentCate_update.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-426">
+          <caret line="96" column="68" lean-forward="false" selection-start-line="96" selection-start-column="62" selection-end-line="96" selection-end-column="68" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TradingController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="534" column="28" lean-forward="true" selection-start-line="534" selection-start-column="28" selection-end-line="534" selection-end-column="28" />
+        <state relative-caret-position="-646">
+          <caret line="534" column="28" lean-forward="false" selection-start-line="534" selection-start-column="28" selection-end-line="534" selection-end-column="28" />
           <folding>
-            <marker date="1603881158889" expanded="true" signature="3000:3089" ph="update price... " />
-            <marker date="1603881158889" expanded="true" signature="4554:4659" ph="update broke... " />
-            <marker date="1603881158889" expanded="true" signature="5873:5942" ph="update secto... " />
-            <marker date="1603881158889" expanded="true" signature="7642:7723" ph="update stock... " />
-            <marker date="1603881158889" expanded="true" signature="10077:10142" ph="update trade... " />
-            <marker date="1603881158889" expanded="true" signature="14373:14453" ph="update to_pe... " />
-            <marker date="1603881158889" expanded="true" signature="16327:16467" ph="update instr... " />
-            <marker date="1603881158889" expanded="true" signature="20826:20897" ph="update sell_... " />
-            <marker date="1603881158889" expanded="true" signature="21104:21149" ph="delete from " />
-            <marker date="1603881158889" expanded="true" signature="21327:21366" ph="delete from " />
+            <element signature="e#40#68#0#PHP" expanded="true" />
+            <marker date="1603970821667" expanded="true" signature="3000:3089" ph="update price... " />
+            <marker date="1603970821667" expanded="true" signature="4554:4659" ph="update broke... " />
+            <marker date="1603970821667" expanded="true" signature="5873:5942" ph="update secto... " />
+            <marker date="1603970821667" expanded="true" signature="7642:7723" ph="update stock... " />
+            <marker date="1603970821667" expanded="true" signature="10077:10142" ph="update trade... " />
+            <marker date="1603970821667" expanded="true" signature="14373:14453" ph="update to_pe... " />
+            <marker date="1603970821667" expanded="true" signature="16327:16467" ph="update instr... " />
+            <marker date="1603970821667" expanded="true" signature="19784:19951" ph="update instr... " />
+            <marker date="1603970821667" expanded="true" signature="22206:22277" ph="update sell_... " />
+            <marker date="1603970821667" expanded="true" signature="22484:22529" ph="delete from " />
+            <marker date="1603970821667" expanded="true" signature="22707:22746" ph="delete from " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4092">
+          <caret line="186" column="72" lean-forward="false" selection-start-line="186" selection-start-column="40" selection-end-line="186" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/BackEnd/pages/trading/InstrumentSetup.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/BackEnd/pages/trading/instrumentCate_update.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2112">
+          <caret line="96" column="68" lean-forward="false" selection-start-line="96" selection-start-column="62" selection-end-line="96" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TradingController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10648">
+          <caret line="484" column="128" lean-forward="false" selection-start-line="484" selection-start-column="114" selection-end-line="484" selection-end-column="128" />
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="true" />
+            <marker date="1603970821667" expanded="true" signature="3000:3089" ph="update price... " />
+            <marker date="1603970821667" expanded="true" signature="4554:4659" ph="update broke... " />
+            <marker date="1603970821667" expanded="true" signature="5873:5942" ph="update secto... " />
+            <marker date="1603970821667" expanded="true" signature="7642:7723" ph="update stock... " />
+            <marker date="1603970821667" expanded="true" signature="10077:10142" ph="update trade... " />
+            <marker date="1603970821667" expanded="true" signature="14373:14453" ph="update to_pe... " />
+            <marker date="1603970821667" expanded="true" signature="16327:16467" ph="update instr... " />
+            <marker date="1603970821667" expanded="true" signature="19784:19951" ph="update instr... " />
+            <marker date="1603970821667" expanded="true" signature="22206:22277" ph="update sell_... " />
+            <marker date="1603970821667" expanded="true" signature="22484:22529" ph="delete from " />
+            <marker date="1603970821667" expanded="true" signature="22707:22746" ph="delete from " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6270">
+          <caret line="294" column="78" lean-forward="false" selection-start-line="294" selection-start-column="78" selection-end-line="294" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/BackEnd/pages/trading/instrumentCate_update.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2112">
+          <caret line="96" column="68" lean-forward="false" selection-start-line="96" selection-start-column="62" selection-end-line="96" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/BackEnd/pages/trading/InstrumentCatSetup.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TradingController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10450">
+          <caret line="475" column="49" lean-forward="false" selection-start-line="475" selection-start-column="49" selection-end-line="475" selection-end-column="49" />
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="true" />
+            <marker date="1603970821667" expanded="true" signature="3000:3089" ph="update price... " />
+            <marker date="1603970821667" expanded="true" signature="4554:4659" ph="update broke... " />
+            <marker date="1603970821667" expanded="true" signature="5873:5942" ph="update secto... " />
+            <marker date="1603970821667" expanded="true" signature="7642:7723" ph="update stock... " />
+            <marker date="1603970821667" expanded="true" signature="10077:10142" ph="update trade... " />
+            <marker date="1603970821667" expanded="true" signature="14373:14453" ph="update to_pe... " />
+            <marker date="1603970821667" expanded="true" signature="16327:16467" ph="update instr... " />
+            <marker date="1603970821667" expanded="true" signature="19784:19951" ph="update instr... " />
+            <marker date="1603970821667" expanded="true" signature="22206:22277" ph="update sell_... " />
+            <marker date="1603970821667" expanded="true" signature="22484:22529" ph="delete from " />
+            <marker date="1603970821667" expanded="true" signature="22707:22746" ph="delete from " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/BackEnd/pages/trading/sorderSetup.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3630">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/BackEnd/pages/trading/stock_update.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="68" column="46" lean-forward="true" selection-start-line="68" selection-start-column="46" selection-end-line="68" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/BackEnd/pages/trading/securities_trading.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="54" column="172" lean-forward="true" selection-start-line="54" selection-start-column="172" selection-end-line="54" selection-end-column="172" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/BackEnd/pages/trading/InstrumentCatSetup.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="31" column="94" lean-forward="false" selection-start-line="31" selection-start-column="94" selection-end-line="31" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/BackEnd/pages/trading/stockSetup.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="57" column="24" lean-forward="true" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/BackEnd/pages/subred/investors.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4562">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/BackEnd/pages/subred/sa_reg.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4962">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/BackEnd/pages/trading/instrumentCate_update.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-426">
+          <caret line="96" column="68" lean-forward="false" selection-start-line="96" selection-start-column="62" selection-end-line="96" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/BackEnd/pages/trading/eod_update.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1716">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/BackEnd/pages/trading/sectorSetup.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/BackEnd/pages/trading/broker_update.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1122">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/BackEnd/pages/trading/sector_update.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1716">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/BackEnd/pages/subred/sa_update.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="75" column="80" lean-forward="true" selection-start-line="75" selection-start-column="80" selection-end-line="75" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TALoginController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PortfolioParameterSetupController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="true" />
+            <marker date="1602397956244" expanded="true" signature="1841:1971" ph="update portf... " />
+            <marker date="1602397956244" expanded="true" signature="4359:4573" ph="update spon " />
+            <marker date="1602397956244" expanded="true" signature="7272:7524" ph="update asset... " />
+            <marker date="1602397956244" expanded="true" signature="10206:10452" ph="update trust... " />
+            <marker date="1602397956244" expanded="true" signature="13563:13769" ph="update audit... " />
+            <marker date="1602397956244" expanded="true" signature="16493:16752" ph="update custo... " />
+            <marker date="1602397956244" expanded="true" signature="18130:18194" ph="update bank " />
+            <marker date="1602397956244" expanded="true" signature="21442:21634" ph="update bank_... " />
+            <marker date="1602397956244" expanded="true" signature="23124:23207" ph="update distr... " />
+            <marker date="1602397956244" expanded="true" signature="25623:25737" ph="update agent... " />
+            <marker date="1602397956244" expanded="true" signature="27248:27343" ph="update inves... " />
+            <marker date="1602397956244" expanded="true" signature="29720:29850" ph="update manag... " />
+            <marker date="1602397956244" expanded="true" signature="32555:32724" ph="update custo... " />
+            <marker date="1602397956244" expanded="true" signature="35117:35241" ph="update trust... " />
+            <marker date="1602397956244" expanded="true" signature="37076:37207" ph="update appli... " />
+            <marker date="1602397956244" expanded="true" signature="39139:39231" ph="update inves... " />
+            <marker date="1602397956244" expanded="true" signature="44786:45223" ph="update portf... " />
+            <marker date="1602397956244" expanded="true" signature="48306:48443" ph="update inves... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TradingController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4272">
+          <caret line="488" column="5" lean-forward="false" selection-start-line="488" selection-start-column="5" selection-end-line="488" selection-end-column="5" />
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="true" />
+            <marker date="1603970821667" expanded="true" signature="3000:3089" ph="update price... " />
+            <marker date="1603970821667" expanded="true" signature="4554:4659" ph="update broke... " />
+            <marker date="1603970821667" expanded="true" signature="5873:5942" ph="update secto... " />
+            <marker date="1603970821667" expanded="true" signature="7642:7723" ph="update stock... " />
+            <marker date="1603970821667" expanded="true" signature="10077:10142" ph="update trade... " />
+            <marker date="1603970821667" expanded="true" signature="14373:14453" ph="update to_pe... " />
+            <marker date="1603970821667" expanded="true" signature="16327:16467" ph="update instr... " />
+            <marker date="1603970821667" expanded="true" signature="19784:19951" ph="update instr... " />
+            <marker date="1603970821667" expanded="true" signature="22206:22277" ph="update sell_... " />
+            <marker date="1603970821667" expanded="true" signature="22484:22529" ph="delete from " />
+            <marker date="1603970821667" expanded="true" signature="22707:22746" ph="delete from " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/BackEnd/pages/trading/instrument_update.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-778">
+          <caret line="120" column="57" lean-forward="false" selection-start-line="120" selection-start-column="57" selection-end-line="120" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="302" column="68" lean-forward="true" selection-start-line="302" selection-start-column="68" selection-end-line="302" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/BackEnd/pages/trading/InstrumentSetup.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="260" column="75" lean-forward="false" selection-start-line="260" selection-start-column="75" selection-end-line="260" selection-end-column="75" />
+          <folding />
         </state>
       </provider>
     </entry>

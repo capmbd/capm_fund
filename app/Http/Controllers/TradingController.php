@@ -482,7 +482,9 @@ class TradingController extends Controller
         $instrument = DB::table('instrument')->paginate(5);
         $sectors = DB::table('sector')->get();
         $instrumentCate = DB::table('instrument_cate')->get();
-        return view('BackEnd.pages.trading.InstrumentSetup',['instrument' => $instrument ,'sectors' => $sectors ,'instrumentCate' => $instrumentCate]);
+        //print_r($instrumentCate);
+        //die();
+        return view('BackEnd.pages.trading.InstrumentSetup', ['instrument' => $instrument, 'sectors' => $sectors, 'instrumentCate' => $instrumentCate]);
 
     }
 
@@ -530,6 +532,38 @@ class TradingController extends Controller
         DB::table('instrument')->insert($data);
 
         return redirect('/trading/instrument')->with('message','Instrument save successfully done');
+    }
+
+    public function instrument_edit($id){
+
+        $id = decrypt($id);
+
+        $instrument= DB::table('instrument')
+            ->where('id', '=', $id)
+            ->first();
+        $instrumentCate = DB::table('instrument_cate')->get();
+        $sectors = DB::table('sector')->get();
+        return view('BackEnd.pages.trading.instrument_update', ['inst' => $instrument, 'instrumentCate' => $instrumentCate, 'sectors' => $sectors]);
+    }
+
+    public function instrument_update(Request $request){
+
+        $id = $request->bid;
+        $inst_name = $request->inst_name;
+        $inst_cat = $request->inst_cat;
+        $short_name = $request->short_name;
+        $ISIN = $request->ISIN;
+        $market_price = $request->market_price;
+        $inst_type = $request->inst_type;
+        $sector_cate = $request->sector_cate;
+        $status = $request->status;
+        $updated_at = Carbon::now();
+
+
+        DB::update('update instrument set inst_name = ?, inst_cat = ?, short_name = ?, ISIN = ?, market_price = ?, inst_type = ?, sector_cate = ?, status = ?,  updated_at = ? where id = ?',[$inst_name, $inst_cat, $short_name, $ISIN, $market_price, $inst_type, $sector_cate, $status, $updated_at, $id]);
+
+        return redirect('/trading/instrument')->with('message','Instrumnet Update Successfully Done');
+
     }
 
     /* Motiur End function*/
