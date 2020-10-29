@@ -393,6 +393,7 @@ class TradingController extends Controller
     public function getTOConfRpt(){
 
         $reports = DB::table('to_pdf')
+                   ->where('TO_URL', 'like', '%' . 'tradeorder' . '%')
                    ->orderBy('TO_PDF_ID', 'DESC')
                    ->get();
 
@@ -684,6 +685,15 @@ class TradingController extends Controller
         }
 
         return 'Sell Order Send Successfully Done';
+    }
+
+    public function getSOConfRpt(){
+        $reports = DB::table('to_pdf')
+                   ->where('TO_URL', 'like', '%' . 'sellorder' . '%')
+                   ->orderBy('TO_PDF_ID', 'DESC')
+                   ->get();
+
+        return view('BackEnd.pages.trading.sell_order_report', ['reports' => $reports]);
     }
 
     //end

@@ -309,6 +309,7 @@ Route::Group([
 	Route::post('/soder/save', 'TradingController@soder_add');
 	Route::get('/pending/sell/{id}', 'TradingController@sorder_conf');
 	Route::get('/delete/sell/{id}', 'TradingController@sorder_del');
+	Route::get('/sorder/conf/report', 'TradingController@getSOConfRpt');
 
 });
 
@@ -333,6 +334,12 @@ Route::Group([
 	Route::get('/recon', 'CorporateActionController@recon_sl');
 	Route::get('/reconbyid/{fund}/{year}', 'CorporateActionController@getRecon_sl');
 	
+});
+
+Route::Group([
+	'prefix' => '/calender'
+],	function(){
+	Route::get('/settings', 'CalenderSetupController@cl_set');
 });
 
 Auth::routes();

@@ -212,7 +212,7 @@
 																		</tr>
 																		<tr>
 																			<td class="panel-menu-card">
-																				<i class="fas fa-hand-point-right"></i><a href="#">Sell Order Reports</a>
+																				<i class="fas fa-hand-point-right"></i><a href="{{url('/trading/sorder/conf/report')}}">Sell Order Reports</a>
 																			</td>
 																		</tr>
 																	</tbody>
