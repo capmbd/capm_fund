@@ -310,6 +310,8 @@ Route::Group([
 	Route::get('/pending/sell/{id}', 'TradingController@sorder_conf');
 	Route::get('/delete/sell/{id}', 'TradingController@sorder_del');
 
+    Route::get('/import/trade', 'InvestmentTradeSetuptController@import_trade');
+
 });
 
 

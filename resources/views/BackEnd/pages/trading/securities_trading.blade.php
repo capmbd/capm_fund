@@ -117,14 +117,19 @@
 															<div>
 																<table class="table table-hover m-b-0 without-header">
 																	<tbody>
+																	<tr>
+																		<td class="panel-menu-card">
+																			<i class="fas fa-hand-point-right"></i><a href="{{url('/trading/import/cdbl')}}">Import CDBL File</a>
+																		</td>
+																	</tr>
 																		<tr>
 																			<td class="panel-menu-card">
-																				<i class="fas fa-hand-point-right"></i><a href="#">Import Market Information</a>
+																				<i class="fas fa-hand-point-right"></i><a href="{{url('/trading/import/marketPrice')}}">Import Market Price</a>
 																			</td>
 																		</tr>
 																		<tr>
 																			<td class="panel-menu-card">
-																				<i class="fas fa-hand-point-right"></i><a href="#">Upload Market Information</a>
+																				<i class="fas fa-hand-point-right"></i><a href="{{url('/trading/import/trade')}}">Import Trade File</a>
 																			</td>
 																		</tr>
 																	</tbody>
