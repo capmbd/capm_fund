@@ -258,7 +258,7 @@
 												 ?>
       											<tr>
         											<td> {{ $inst->inst_name}} </td>
-        											<td> {{ $cat_info->code}} </td>
+        											<td> {{ $inst->inst_cat}} </td>
         											<td> {{ $inst->short_name}} </td>
 													<td> {{ $inst->ISIN}} </td>
 													<td> {{ $inst->market_price}} </td>
@@ -272,7 +272,7 @@
         												$bkid = encrypt($inst->id);
         											?>
         											<td class="text-center">
-														<a href="{{ url('/trading/instrumentCate/edit/'.$bkid) }}" title="Update" data-toggle="tooltip"><i class="fas fa-edit"></i></a>
+														<a href="{{ url('/trading/instrument/edit/'.$bkid) }}" title="Update" data-toggle="tooltip"><i class="fas fa-edit"></i></a>
         											</td>
       											</tr>
       										@endforeach
