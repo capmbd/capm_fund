@@ -340,6 +340,7 @@ Route::Group([
 	'prefix' => '/calender'
 ],	function(){
 	Route::get('/settings', 'CalenderSetupController@cl_set');
+	Route::post('/month/save', 'CalenderSetupController@mnth_store');
 });
 
 Auth::routes();

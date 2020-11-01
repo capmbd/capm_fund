@@ -17,9 +17,9 @@ class CreateCalenderTable extends Migration
             $table->bigIncrements('calender_id');
             $table->date('CL_DATE');
             $table->string('DAY');
-            $table->string('STATUS');
-            $table->string('NOTE');
-            $table->integer('USER_ID');
+            $table->string('STATUS')->default('N');
+            $table->string('NOTE')->nullable();
+            $table->integer('USER_ID')->nullable();
             $table->timestamps();
         });
     }
