@@ -341,6 +341,11 @@ Route::Group([
 ],	function(){
 	Route::get('/settings', 'CalenderSetupController@cl_set');
 	Route::post('/month/save', 'CalenderSetupController@mnth_store');
+	Route::post('/holyday/save', 'CalenderSetupController@hd_store');
+	Route::post('/newhday/save', 'CalenderSetupController@nhd_store');
+	Route::get('/dayedays', 'CalenderSetupController@daye_s');
+	Route::get('/day-start/{id}', 'CalenderSetupController@dayStart');
+	Route::get('/day-end/{id}', 'CalenderSetupController@dayEnd');
 });
 
 Auth::routes();

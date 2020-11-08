@@ -111,7 +111,7 @@
 												</tr>
 												<tr>
 													<td class="panel-menu-card">
-														<i class="fas fa-hand-point-right"></i><a href="#">Day End / Day Start</a>
+														<i class="fas fa-hand-point-right"></i><a href="{{url('/calender/dayedays')}}">Day End / Day Start</a>
 													</td>
 												</tr>
 											</tbody>
