@@ -31,7 +31,7 @@
 								<i class="feather icon-layers"></i>
 							</a>
 						</li>
-						<li class="breadcrumb-item"><a href=" {{ url('/calender/dayedays') }} ">Day End / Day Start</a> {{date('d-M-Y', strtotime($date_ck->CL_DATE))}}</li>
+						<li class="breadcrumb-item"><a href=" {{ url('/calender/dayedays') }} ">Day End / Day Start</a> {{$dt}}</li>
 					</ul>
 				</div>
 			</div>
@@ -64,13 +64,13 @@
                                             <tbody>
                                                 @foreach($data as $data)
                                                 <tr>
-                                                    <td>{{$data->CL_DATE}}</td>
+                                                    <td>{{date('d-m-Y', strtotime($data->CL_DATE))}}</td>
                                                     <td>{{$data->DAY}}</td>
                                                     @if($data->STATUS == 'N')
                                                     	<td>Pending</td>
                                                     @elseif($data->STATUS == 'O')
                                                     	<td class="bg-success">Open</td>
-                                                    @elseif($data->STATUS == 'H' || $data->STATUS == 'C')
+                                                    @elseif($data->STATUS == 'H' || $data->STATUS == 'F')
                                                     	<td>Closed</td>
                                                     @endif
                                                     

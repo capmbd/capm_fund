@@ -10,6 +10,7 @@ use Session;
 use PDF;
 use QRCode;
 use Mail;
+use Auth;
 
 class CalenderSetupController extends Controller
 {
@@ -51,6 +52,7 @@ class CalenderSetupController extends Controller
 		            'CL_DATE'=>$date,
 		            'DAY'=>$day,
 		            'NOTE' => 'Open',
+		            'USER_ID' => Auth::user()->id,
 		            'created_at'=>Carbon::now(),
 		            'updated_at'=>Carbon::now()
 	        	);
@@ -72,6 +74,7 @@ class CalenderSetupController extends Controller
             ->update([
                 'STATUS' => 'H',
                 'NOTE' => 'Weakened Close',
+                'USER_ID' => Auth::user()->id,
                 'updated_at'=>Carbon::now()
             ]);
 		}
@@ -89,6 +92,7 @@ class CalenderSetupController extends Controller
         		 ->update([
             		'STATUS' => 'H',
             		'NOTE' => $request->H_NOTE.' Close',
+            		'USER_ID' => Auth::user()->id,
             		'updated_at'=>Carbon::now()
         		]);
 
@@ -101,14 +105,29 @@ class CalenderSetupController extends Controller
 
     public function daye_s(){
 
+    	$month = date('m', strtotime(Carbon::now()));
+
     	$date_ck = DB::table('calender')
-                   ->Select('calender_id', 'STATUS', 'CL_DATE')
+                   ->Select('calender_id', 'STATUS')
                    ->where('STATUS', '=', 'N')
-                   ->orwhere('STATUS', '=', '0')
+                   ->orWhere('STATUS', 'O')
                    ->first();
 
-    	$data = DB::table('calender')->get();
-    	return view('BackEnd.pages.calender.dayes', ['data' => $data, 'date_ck' => $date_ck]);
+        $sft_dt = DB::table('calender')
+                   ->Select('CL_DATE')
+                   ->where('STATUS', '=', 'O')
+                   ->first();
+
+        if(empty($sft_dt)){
+        	$dt = '';
+        }else{
+        	$dt = date('d-M-Y', strtotime($sft_dt->CL_DATE));
+        }
+
+    	$data = DB::table('calender')
+    			->whereMonth('CL_DATE', '=', $month)
+    			->get();
+    	return view('BackEnd.pages.calender.dayes', ['data' => $data, 'date_ck' => $date_ck, 'dt' => $dt]);
     }
 
     public function dayStart($id){
@@ -117,6 +136,7 @@ class CalenderSetupController extends Controller
        	->where('calender_id', '=', $id)
         ->update([
             'STATUS' => 'O',
+            'USER_ID' => Auth::user()->id,
             'updated_at'=>Carbon::now()
         ]);
 
@@ -128,8 +148,9 @@ class CalenderSetupController extends Controller
     	DB::table('calender')
        	->where('calender_id', '=', $id)
         ->update([
-            'STATUS' => 'C',
+            'STATUS' => 'F',
             'NOTE' => 'Close',
+            'USER_ID' => Auth::user()->id,
             'updated_at'=>Carbon::now()
         ]);
 
