@@ -105,29 +105,37 @@ class CalenderSetupController extends Controller
 
     public function daye_s(){
 
-    	$month = date('m', strtotime(Carbon::now()));
+    	$cnt = DB::table('calender')->count();
 
-    	$date_ck = DB::table('calender')
-                   ->Select('calender_id', 'STATUS')
-                   ->where('STATUS', '=', 'N')
-                   ->orWhere('STATUS', 'O')
-                   ->first();
+    	if($cnt > 0){
+    		$month = date('m', strtotime(Carbon::now()));
 
-        $sft_dt = DB::table('calender')
-                   ->Select('CL_DATE')
-                   ->where('STATUS', '=', 'O')
-                   ->first();
+	    	$date_ck = DB::table('calender')
+	                   ->Select('calender_id', 'STATUS')
+	                   ->where('STATUS', '=', 'N')
+	                   ->orWhere('STATUS', 'O')
+	                   ->first();
 
-        if(empty($sft_dt)){
-        	$dt = '';
-        }else{
-        	$dt = date('d-M-Y', strtotime($sft_dt->CL_DATE));
-        }
+	        $sft_dt = DB::table('calender')
+	                   ->Select('CL_DATE')
+	                   ->where('STATUS', '=', 'O')
+	                   ->first();
 
-    	$data = DB::table('calender')
-    			->whereMonth('CL_DATE', '=', $month)
-    			->get();
-    	return view('BackEnd.pages.calender.dayes', ['data' => $data, 'date_ck' => $date_ck, 'dt' => $dt]);
+	        if(empty($sft_dt)){
+	        	$dt = '';
+	        }else{
+	        	$dt = date('d-M-Y', strtotime($sft_dt->CL_DATE));
+	        }
+
+	    	$data = DB::table('calender')
+	    			->whereMonth('CL_DATE', '=', $month)
+	    			->get();
+	    	return view('BackEnd.pages.calender.dayes', ['data' => $data, 'date_ck' => $date_ck, 'dt' => $dt]);
+    	}else{
+    		return redirect('/calender/settings')->with('message','Please setup month first');
+    	}
+
+    	
     }
 
     public function dayStart($id){

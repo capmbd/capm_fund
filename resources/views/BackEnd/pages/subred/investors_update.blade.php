@@ -17,6 +17,17 @@
 		label span{
 			color: red;
 		}
+		.zoom-img{
+			cursor: pointer;
+		}
+		.zoom{
+			width:100%;
+			float: right;
+			display: none;
+		}
+		.zoom-img:hover + .zoom{
+  			display: block;
+		}
 	</style>
 @endpush
 @section('main-content')
@@ -136,7 +147,8 @@
 														<label class="col-form-label">Photo</label>
 													</div>
 													<div class="col-sm-8">
-														<img style="height: 220px; width: 220px; margin-bottom: 5px;" src="{{ asset('investor/'.$data->REGISTRATION_NO.'/images/'.$data->IMAGE) }}" alt="">
+														<img class="zoom-img" style="height: 220px; width: 220px; margin-bottom: 5px;" src="{{ asset('investor/'.$data->REGISTRATION_NO.'/images/'.$data->IMAGE) }}" alt="">
+														<img class="zoom" src="{{ asset('investor/'.$data->REGISTRATION_NO.'/images/'.$data->IMAGE) }}" alt="">
 														<input type="file" id="IMAGE" name="IMAGE">
 													</div>
 												</div>
@@ -146,7 +158,8 @@
 														<label class="col-form-label">Signature</label>
 													</div>
 													<div class="col-sm-8">
-														<img style="height: 100px; width: 220px; margin-bottom: 5px;" src="{{ asset('investor/'.$data->REGISTRATION_NO.'/images/'.$data->APP_SIGN) }}" alt="">
+														<img class="zoom-img" style="height: 100px; width: 220px; margin-bottom: 5px;" src="{{ asset('investor/'.$data->REGISTRATION_NO.'/images/'.$data->APP_SIGN) }}" alt="">
+														<img class="zoom" src="{{ asset('investor/'.$data->REGISTRATION_NO.'/images/'.$data->APP_SIGN) }}" alt="">
 														<input type="file" id="APP_SIGN" name="APP_SIGN">
 													</div>
 												</div>

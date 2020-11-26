@@ -88,9 +88,9 @@
                                     </div>
 
                                     @if($date_ck->STATUS == 'N')
-                                        <a href="{{url('calender/day-start/'.$date_ck->calender_id)}}" class="btn my_bg_one btn-sm text-white">Day Start</a>
+                                        <a id="dys" href="{{url('calender/day-start/'.$date_ck->calender_id)}}" class="btn my_bg_one btn-sm text-white">Day Start</a>
                                     @elseif($date_ck->STATUS == 'O')
-                                        <a href="{{url('calender/day-end/'.$date_ck->calender_id)}}" class="btn btn-danger btn-sm">Day End</a>
+                                        <a id="dye" href="{{url('calender/day-end/'.$date_ck->calender_id)}}" class="btn btn-danger btn-sm">Day End</a>
                                     @endif
 
 								</div>
@@ -103,3 +103,65 @@
 	</div>
 </div>
 @endsection
+
+@push('js')
+
+<script type="text/javascript" src="{{ asset('BackEnd/files/assets/js/bootbox.min.js') }}"></script>
+    <script type="text/javascript">
+
+        $(document).on('click', '#dys', function(e){
+            e.preventDefault();
+            var link = $(this).attr('href');
+
+            bootbox.confirm({
+                message: "<span style='color: #2b8a78;'>Are You Want to Day Start?</span>",
+                size: 'small',
+                backdrop: true,
+                buttons: {
+                    cancel: {
+                        label: '<i class="fa fa-times"></i> Cancel',
+                        className: 'btn-danger'
+                    },
+                    confirm: {
+                        label: '<i class="fa fa-check"></i> Confirm',
+                        className: 'btn-success'
+                    }
+                },
+                callback: function (result) {
+                    if(result){
+                        window.location.href = link;
+                    }
+                }
+            });
+        });
+
+        $(document).on('click', '#dye', function(e){
+            e.preventDefault();
+            var link = $(this).attr('href');
+
+            bootbox.confirm({
+                message: "<span style='color: #2b8a78;'>Are You Want to Day End?</span>",
+                size: 'small',
+                backdrop: true,
+                buttons: {
+                    cancel: {
+                        label: '<i class="fa fa-times"></i> Cancel',
+                        className: 'btn-danger'
+                    },
+                    confirm: {
+                        label: '<i class="fa fa-check"></i> Confirm',
+                        className: 'btn-success'
+                    }
+                },
+                callback: function (result) {
+                    if(result){
+                        window.location.href = link;
+                    }
+                }
+            });
+        });
+
+
+    </script>
+
+@endpush

@@ -1116,7 +1116,7 @@ class SubscriptionRedumptionController extends Controller
                         ->first();
 
         $current_avg = DB::table('unit_purchase')
-                        ->select(DB::raw('SUM(unit_purchase.RATE * unit_purchase.REMAINING_UNITS) as rc'), DB::raw('SUM(unit_purchase.REMAINING_UNITS) as rt'))
+                        ->select(DB::raw('SUM(unit_purchase.RATE * unit_purchase.UNIT) as rc'), DB::raw('SUM(unit_purchase.UNIT) as rt'))
                         ->where('REGISTRATION_NO', '=', $id)
                         ->where('SC_CNF_FLAG', '=', 'A')
                         ->whereBetween(DB::raw('date(created_at)'), [$fdate, $tdate])
