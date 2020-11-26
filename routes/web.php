@@ -311,6 +311,8 @@ Route::Group([
 	Route::get('/delete/sell/{id}', 'TradingController@sorder_del');
 	Route::get('/sorder/conf/report', 'TradingController@getSOConfRpt');
 
+    Route::get('/import/trade', 'InvestmentTradeSetuptController@import_trade');
+
 });
 
 
