@@ -1177,7 +1177,7 @@ class SubscriptionRedumptionController extends Controller
         $fdate=($year-1)."-07-01";
         $tdate=$year."-06-30";
                 
-         $id_first = substr($id, 0, -11);
+        $id_first = substr($id, 0, -11);
          
         if($id_first == 1 || $id_first == 3){
             $applicant = DB::table('principal_applicant')
@@ -1226,7 +1226,7 @@ class SubscriptionRedumptionController extends Controller
                         ->whereBetween(DB::raw('date(created_at)'), [$fdate, $tdate])
                         ->first();
 
-       $current_sell = DB::table('unit_sell')
+        $current_sell = DB::table('unit_sell')
                         ->select(DB::raw('sum(UNIT) as scurr'))
                         ->where('REGISTRATION_NO', '=', $id)
                         ->where('PAY_CLR_FLAG', '=', 'A')

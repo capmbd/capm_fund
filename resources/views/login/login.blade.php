@@ -62,7 +62,6 @@
                                     <p id="heading" class="text-center">Admin Login</p>
                                     <p class="my_color_one text-center" id="msg"></p><br>
                                 </div>
-
                                 <form style="display: none;" id="reset_form" class="md-float-material form-material">
                                     <div class="form-group form-primary">
                                         <input type="hidden" id="re_email">
@@ -214,6 +213,5 @@
             });
 
         </script>
-
     </body>
 </html>

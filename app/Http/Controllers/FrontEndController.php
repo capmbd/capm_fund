@@ -7,6 +7,7 @@ use Illuminate\Support\Facades\Hash;
 use PDF;
 use DB;
 use Mail;
+use Session;
 class FrontEndController extends Controller
 {
     public function login_mgmt(){
